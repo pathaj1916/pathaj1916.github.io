@@ -1,0 +1,198 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.toyota {
+	margin: -17px 0 0 690px;
+}
+
+.header {
+	background-color: #FFFFFF; 
+	margin: 0 150px 0 150px; 
+	width: 800px; 
+	height: 80px
+}
+
+#logo {
+	margin: 15px 0 0 20px
+}
+ 
+.headline-text-column {
+	background-color: #FFFFFF; 
+	margin: 0 150px 0 150px; 
+	width: 800px; 
+	height: 800px
+}
+
+.container2 {
+	background-color: #C1272D; 
+	width: 800px; 
+	height: 30px; 
+	margin: 0 150px 0 150px; 
+	float: left;
+}
+	
+.images: {
+	margin: 0 0 0 0; 
+	padding: 0 0 0 0;
+}
+
+#images, #image1, #image2, #image3, #image4, #image5 {
+	margin: 0 0 0 0;  
+	float: left;
+}
+
+.container3 {
+	background-color: #991F28; 
+	width: 440px; 
+	height: 150px; 
+	margin: 0px 0px 5px 0px; 
+	float: left;
+}
+
+.container4 {
+	background-color: #C1272D; 
+	width: 360px; 
+	height: 150px; 
+	float: left; 
+	margin: 0px 0 0 0;
+}
+
+#footer {
+	color: #000000; 
+	margin: 265px 0 0 0; 
+}
+
+#title {
+	font-family: "Open Sans", Arial, serif; 
+	font-weight: 600; 
+	font-size: 1.27em; 
+	color: #C1272D; 
+	margin: 0 20px 0 0;
+}
+
+#title2 {
+	font-family: "Open Sans", Arial, serif; 
+	font-weight: 600; 
+	font-size: 1.9em; 
+	color: #C1272D; 
+	margin: 0 20px 0 0;
+}
+
+h1 {
+	padding: 15px 0 0 0;
+}
+  
+span {
+	color: #C1272D; 
+	font-weight: 600
+}
+
+p {
+	font-family: "Open Sans", Arial, serif; 
+	font-weight: 300; 
+	font-size: 0.7em; 
+	line-height: 1.5em;
+	text-align:justify; 
+	margin: 10px 27px 0 0;
+}
+
+#button {
+	margin: -8px 0 0 480px; color:#FFFFFF; font-size: 0.8em;
+}
+
+button {
+	border-bottom: 1px solid #b2b2b2; 
+	background-color: #C1272D; 
+	border-radius: 8px;
+}
+
+#intro2, #intro3 {
+	font-family: "Open Sans", Arial, serif; 
+	color: #C1272D; 
+	line-height: 1.5em;
+}
+
+#intro2 {
+	font-weight: 600; 
+	font-size: 0.8em;
+}
+
+#intro3 {
+	font-size: 0.7em; 
+	line-height: 1.5em; 
+	margin: 3px 3px 0 0;
+	}
+
+#toyota: {
+	font-family: "Open Sans", Arial, serif; 
+	color: #C1272D;
+}
+
+.form-left {
+	float:left;
+}
+
+form {
+	font-family: "Open Sans", Arial, serif; 
+	font-weight: 300; 
+	font-size: 0.6em;
+} 
+
+#DateofBirth, #First, #Last, #address1, #address2, #city, #state, #zip, #phonenumber, #email, #email2 { 
+	width: 140px; 
+	display: block; 
+	margin: 5px 8px 0 0;
+}
+
+#share {
+	color: #C1272D; 
+	font-family: "Open Sans", Arial, serif; 
+	font-weight: 600; 
+	font-size: 0.8em; 
+	margin: 15px 0 0 480px;}
+	
+.rules {
+	font-size: 1em;
+}
+
+#logo1, #logo2, #logo3, #logo4 {
+	float: left; 
+	margin: 0 5px 0 0;
+}
+
+#logos {
+	margin: -10px 0 0 440px
+}
+
+#check {
+	font-size: 1.5em; 
+	margin: 25px 0 0 0;
+}
+
+.check1, .check2, .check3 {
+	margin: 10px 0 0 0;
+}
+
+.title1 {
+	float:left;
+	margin: 0px;
+}
+
+
+h6 {
+	padding: 0 0 0 20px; 
+	font-weight: 300; 
+	margin: -55px 0 0 0
+} 
+
+.clearfix:before, .clearfix:after {
+    content: ""; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+
+

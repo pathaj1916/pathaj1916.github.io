@@ -277,7 +277,7 @@ textarea {
 h1, h2 {color: #FF00A4;}
 h3, h4, p {color: #5E5E5E;}
 .header {background-color: #9D9D9D; margin: 0 auto; height: 100px}
-#logo {width: 90px; height: 90px; margin: 0 0 0 50px;} 
+#logo {width: 90px; height: 90px; margin: 0 0 0 50px; float: left;} 
 .row {color:#F6E7F7}
 .row {margin: 0 auto; width: 990px;}
 .section-column {
