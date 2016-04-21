@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title></title>
+        <meta name="description" content="">
+
+        <!-- Place favicon.ico in the root directory -->
+		
+        <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&subset=latin,greek" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+        
+        <link rel="stylesheet" href="normalize.css">
+        <link rel="stylesheet" href="main.css">
+       
+    </head>
+    
+    
+<body class="background1"> 
+      
+<div class="container2"></div>
+
+    <div class="wrapper">
+        <header class="header" id="header">
+            <div class="container">
+                <a href="Home.html"> <img src="assets/logo.png" width="350 px" alt="logo" id="logo"></a>
+                <div class="navigationbar">
+                   <a href="menu.html" id="menu"> Menu </a>
+                    <a href="specials.html" id="specials"> Specials </a>
+                    <a href="checkout.html" id="orderonline"> Checkout </a>     
+                    <a href="contact.html" id="contactus"> Contact Us </a>
+                </div>
+            </div>
+        </header>
+    </div>
+    
+<div class="centered5 clearfix">
+
+<h2 class="menu"> Checkout </h2>
+
+<p class="menulink"> Go back to the <a href="Menu.html" id="menulink"> Menu </a></p>
+
+<div class="checkoutform">
+
+<div class="form2"> 
+        <form action="">
+
+        <div> ORDER:
+        <label>
+        	<input type="radio" name="pickup" value="pickup" id="pickup" required="required"/> Pick-Up
+        </label>
+    	<label>
+        	<input type="radio" name="pickup" value="delivery" id="delivery" required="required"  /> Delivery
+        </label>
+    
+        </div>
+        
+        <div class="branch"> BRANCH:
+        <label>
+        	<input type="radio" name="branch" value="burbank" id="burbank" required="required"/> Burbank
+        </label>
+    	<label>
+        	<input type="radio" name="branch" value="westhollywood" id="westhollywood" required="required"  /> West Hollywood
+        </label>
+        <label>
+        	<input type="radio" name="branch" value="studiocity" id="studiocity" required="required" /> Studio City
+        </label>
+        </div>
+       
+ <div class="form-left">
+    	<label for="first-name"> FIRST NAME: </label>
+    	<input type="text" name="first" id="firstname" value="" required="required"/> </div>
+
+  <div class="form-right">
+    	<label for="email"> LAST NAME: </label>
+    	<input type="text" name="lastname" id="lastname" value="" required="required" /> </div>
+     
+<div class="yourmessage">
+	<label for="yourmessage" > ADDRESS: </label> 
+            <input type="text" name="address" id="address"/> </div>
+            
+             <div class="paymenttype"> PAYMENT TYPE:
+        <label>
+        	<input type="radio" name="payment" value="cash" id="cash" required="required" /> Cash
+        </label>
+    	<label>
+        	<input type="radio" name="payment" value="card" id="card" required="required"  /> Card
+        </label>
+    
+    
+        </div>
+        
+        <label for="cardtype" id="cardtype">CARD TYPE:</label> 
+            <div><select name="type" id="cardt"> <option value="">Select a Card Type </option>
+            <option value="AK">Alaska</option>
+                <option value="V">Visa</option>
+                <option value="MC">MasterCard</option>
+                <option value="AE">American Express</option>
+                <option value="D">Discover</option>
+                
+      </select></div>
+    
+    <div class="form-left">
+    	<label for="card-number" id="cardn"> CARD NUMBER: </label>
+    	<input type="text" name="card" id="cardnumber" value=""  /> </div>
+
+  <div class="form-right1">
+    	<label for="card-expiration"> EXPIRATION: </label>
+    	<input type="text" name="expirationdate" id="expirationdate" value=""  /> </div>
+        
+ <div class="form-right1 clearfix">
+    	<label for="secutiycode"> SECURITY: </label>
+    	<input type="text" name="securitycode" id="securitycode" value="" /> </div>
+        
+<div class="tip">
+    	<label for="tip"> TIP: </label>
+    	<input type="text" name="tip" id="tip" placeholder="$" value=""  /> </div>
+        
+<div class="totaltab">
+    	<label for="totaltab"> TOTAL: </label>
+    	<input type="text" name="totaltab" id="totaltab" placeholder="$" value=""  /> </div>
+        
+        <div class="specialinstructions"><label for="specialinstructions"> SPECIAL INSTRUCTIONS: </label> 
+            <textarea name="specialinstructions" id="specialinstructions"> </textarea> </div>
+            
+            
+        
+    <div id="button">
+   			 <button type="submit" class="button2">Checkout</button>  </div>    
+</form>
+</div>
+ 
+</div>
+
+
+<div class="items2">
+
+<div class="itemsaddedtotal" id="checkoutline">
+	<div class="cartrow3"> <p class="subtotal">Subtotal: </p></div> 
+    <div class="cartrow4"> <p class="tax">Tax: </p></div> 
+    <div class="cartrow5"> <p class="finaltotal">Total: </p></div> 
+</div>
+
+<div class="itemsaddedtotalamount">  <p class="amount1"> $19.90</p> <p class="amount2">$1.80</p> <p class="amount3">$21.70</p> </div>
+
+</div>
+
+
+
+
+</div>
+	
+    
+	
+
+
+
+<footer class="footer" id="footer">
+        <div class="container6">
+            <span id="copy"> © Copyright Flavor of India All Rights Reserved.</span>
+            <span class="footerlinks">
+                <a href="http://www.flavorofindia.com/blog/" id="blogs"> Blogs </a>
+                <a href="http://www.flavorofindia.com/newsletter/" id="newsletter"> Newsletter </a>
+                <a href="careers.html"  id="careers"> Careers </a>
+                <a href="privacypolicy.html"  id="privacypolicy"> Privacy Policy </a>
+            </span>
+            <span class="socialmedia">
+                <a href="http://www.pikore.com/flavorofindia"> <img src="assets/IG.png" width="18px" alt="ig" id="ig"> </a>
+                <a href="https://www.facebook.com/flavorofindia/">  <img src="assets/facebook.png" width="18px" alt="fb" id="fb"> </a>
+                <a href="https://twitter.com/flavorofindiala"> <img src="assets/twitter.png" width="18px" alt="twitter" id="twitter"> </a>
+                <a href="https://www.pinterest.com/ahsin13/flavors-of-india/"> <img src="assets/pinterest.png" width="18px" alt="pinterest" id="pinterest"> </a>
+                <a href="http://www.yelp.com/biz/flavor-of-india-west-hollywood"> <img src="assets/yelp.png" width="18px" alt="yelp" id="yelp"> </a>
+            </span>
+            </div>
+    </footer> 
+   
+<script src="js/jquery-2.2.3.min.js"></script>
+<script src="js/jquery-2.2.3.min.map"></script>
+<script>
+$(document).ready(function () {
+	$('.menu-btn').on('click', function () {
+		// close menu container open
+		$('.menu-container').filter('.open').removeClass('open');
+		
+		// show menu
+		var menuID = $(this).data('menu');
+		$('#' + menuID).addClass('open');
+	});
+	$('.menu-btn:first').trigger('click');
+});
+</script>
+       
+</body>
+</html>

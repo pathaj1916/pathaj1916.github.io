@@ -1,0 +1,1440 @@
+/*! HTML5 Boilerplate v5.3.0 | MIT License | https://html5boilerplate.com/ */
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+.background1 {
+	background-image: url(assets/background.jpg);
+}
+.background2 {
+	background-image: url(assets/background.jpg);
+}
+
+.container2 {
+	background-color: #6D350F; 
+	width: 990px; 
+	height: 20px; 
+	margin: 0 auto;
+}
+
+
+
+input, textarea {color: #000000; font-size: 1.2em;}
+
+.header {
+	background-color: #FFFFFF; 
+	margin: 0 auto; 
+	width: 990px; 
+	height: 145px;
+	box-shadow: 0.9px 0.9px 10px rgba(0, 0, 0, 0.3);
+}
+
+.navigationbar {
+	margin: -39px 20px 0 480px;
+	font-family: "Josefin Sans", Arial, serif;
+	font-weight: 400; 
+	font-size: 1.3em; 
+	text-shadow: 0.9px 0.9px 2.5px rgba(0, 0, 0, 0.2);
+}
+
+.navigationbar a {
+	color: #6D350F;
+	text-decoration: none;
+}
+
+#menu, #orderonline, #specials, #contactus {
+	padding: 0 55px 0 0;
+}
+
+#logo {padding: 15px 0 0 20px;}
+
+.footer {
+	font-family: "Josefin Sans";
+	font-weight: 400;
+	font-size: 0.8em;
+	color: #FFFFFF;
+	background-color: #6D350F;
+	margin: 0 auto; 
+	width: 990px; 
+	height: 60px;
+	position: relative;
+	
+}
+
+a#blogs:hover, a#newsletter:hover, a#careers:hover, a#privacypolicy:hover {
+	color: rgba(229,104,106,1.00);
+}
+
+a#blogs:active, a#newsletter:active, a#careers:active, a#privacypolicy:active {
+	color: rgba(229,104,106,1.00);
+}
+
+span#copy {
+	color: #fff;
+}
+
+.container6 {
+	padding: 25px 0 0 25px;
+}
+
+.container3 {
+	padding: 25px 0 0 25px;
+}
+	
+.footerlinks {
+	margin: 0 0 0 290px;
+}
+
+.footerlinks a {
+	margin: 0 20px 0 0;
+	color: #fff;
+	text-decoration: none;
+}
+
+a#menu:hover, a#specials:hover, a#orderonline:hover, a#contactus:hover {
+	color: #C63C3C;
+	} 
+	
+.socialmedia {
+	padding: 0 0 0 15px;
+}
+
+#ig, #fb {
+	padding: 0 5px 0 0;
+}
+
+#twitter {
+	padding: 0 2px 0 0;
+}
+
+#pinterest {
+	padding: 0 4px 0 0;
+}
+
+#yelp {
+	padding: 0 3px 0 0;
+}
+
+.centered {
+	background-color: #fff; 
+	width: 990px; 
+	margin: 30px auto; 
+	height: 1640px;
+	padding: 1px 7px 0 0;
+}
+
+.centered2 {
+	background-color: #fff; 
+	width: 990px; 
+	margin: 30px auto; 
+	height: 900px;
+	padding: 1px 0 0 0;
+}
+
+.centered3 {
+	background-color: #fff; 
+	width: 990px; 
+	margin: 30px auto; 
+	height: 1450px;
+	padding: 1px 0 0 0;
+}
+
+.centered4 {
+	background-color: #fff; 
+	width: 990px; 
+	margin: 30px auto; 
+	height: 1050px;
+	padding: 1px 0 0 0;
+}
+
+.centered5 {
+	background-color: #fff; 
+	width: 990px; 
+	margin: 30px auto; 
+	height: 820px;
+	padding: 1px 0 0 0;
+}
+
+
+.body1 {
+	width: 2700px; 
+	height: 1763px; 
+	margin: 35px auto;
+	
+}
+ img.image1 {
+	 padding: 9px;
+	 background-color: rgba(198, 60, 60, 0.2);
+}
+
+#chilipanner, #idli, #chickensagg, #bhel, #shrimpsagg, #currythali, #samosa, #lambthali, .butterchicken, .chickentikkamasala, .frankielunch,.lambcurry, .chickencurrylunch, .southindianlunch, #shrimpsaggitem, #bhelpuriitem {
+	padding: 5px;
+	 background-color: rgba(198, 60, 60, 0.2);
+}
+ 
+.image1 {
+	display: block;
+	width: 940px;
+	position: relative;
+	padding: 10px 7px 10px 10px;
+}
+
+.image-border {
+	margin: 30px;
+	position: relative;
+}
+
+.image-border img {
+	max-width: 100%;
+}
+
+.image-border img:after {
+	content: "";
+	display: block;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	border: 10px solid rgba(255, 0, 0, 1);
+}
+
+.paragraph {
+	background-color: #fff;
+	box-shadow: 0.9px 0.9px 10px rgba(0, 0, 0, 0.2);
+	color: #6D350F;
+	position: relative;
+	z-index: 50;
+	width: 910px;
+	height: 340px;
+	margin:  0 0 0 40px;
+	font-family: "Josefin Sans";
+	font-size: 1.3em;
+	line-height: 1.7em;
+}
+
+.contactus {
+	background-color: #fff;
+	box-shadow: 0.9px 0.9px 10px rgba(0, 0, 0, 0.2);
+	color: #6D350F;
+	position: relative;
+	z-index: 50;
+	width: 400px;
+	height: 120px;
+	margin: 20px 25px 0 30px;
+	font-family: "Josefin Sans";
+	font-size: 1.1em;
+	line-height: 1.4em;
+}
+
+p.statement {
+	margin: 20px 30px 0 20px
+}
+
+.menulink {font-family: "Josefin Sans";
+	font-size: 1em; color: #6D350F; margin: -55px 0 15px 200px; }
+	
+	#menulink {color: #C63C3C; }
+
+p.statement2 {
+	width: 390px; margin: -13px 0 0 20px; padding: 13px 0 0 0;
+}
+
+span {
+	color: #C63C3C;
+}
+	
+h1 { 
+	padding: 20px 0 0 20px;
+	color: #C63C3C;
+	font-family: "Lora";
+	font-weight: 400;
+	font-size: 1.7em;
+}
+
+h2.contact { 
+	padding: 0 0 0 30px;
+	color: #C63C3C;
+	font-family: "Lora";
+	font-weight: 400;
+	font-size: 2em;	
+}
+
+h2.menu { 
+	padding: 0 0 0 30px;
+	color: #C63C3C;
+	font-family: "Lora";
+	font-weight: 400;
+	font-size: 2em;	
+}
+
+h2.specials { 
+	margin: 20px 0 0 30px;
+	color: #C63C3C;
+	font-family: "Lora";
+	font-weight: 400;
+	font-size: 2em;
+}
+
+h2.locations { 
+	padding: 0 0 0 30px;
+	color: #C63C3C;
+	font-family: "Lora";
+	font-weight: 400;
+	font-size: 2em;	
+}
+
+.menutab {
+	background-color: #6D350F; 
+	color: #fff; 
+	font-family: "Josefin Sans";
+	font-size: 0.4em; 
+	font-weight: 200;
+	float: left;
+	margin: 0 12px 0 16px;
+	
+}
+	
+.menu1 {
+	margin: 0 0 0 20px;
+}
+
+.map, .address {
+	float: left;
+}
+
+.contactinfo {
+	float: left;
+}
+
+.contactform {
+	float: left; 
+	margin: 38px 0 0 0; 
+	font-family: "Josefin Sans";
+	font-size: 1em; 
+	font-weight: 600;
+	width: 500px;
+}
+
+.specialinstructions {
+	margin: 12px 0 0 0;
+}
+
+.checkoutform {
+	float: left; 
+	margin: -20px 0 0 32px; 
+	font-family: "Josefin Sans";
+	font-size: 1em; 
+	font-weight: 600;
+	width: 540px;
+}
+	
+.button {
+	background-color: rgba(198, 60, 60, 0.8); 
+	font-size: 1.5em; 
+	font-weight: 700; 
+	float: right; 
+	margin: 14px -15px 0 0; 
+	width: 90px;
+	padding: 7px 0 3px 0;
+	border: none; 
+	text-shadow: 0 -1px 0 rgba(0,0,0,0.8);
+	box-shadow: 0 2px 4px rgba(0,0,0,0.2), 0 1px 0 rgba(255,255,255,0.2) inset;
+	cursor: pointer;
+}
+
+.button2 {
+	background-color: rgba(198, 60, 60, 0.8); 
+	font-size: 1.5em; 
+	font-weight: 700; 
+	float: right; 
+	margin: 24px -25px 0 0; 
+	width: 100px;
+	padding: 7px 0 3px 0;
+	border: none; 
+	text-shadow: 0 -1px 0 rgba(0,0,0,0.8);
+	box-shadow: 0 2px 4px rgba(0,0,0,0.2), 0 1px 0 rgba(255,255,255,0.2) inset;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: rgba(198, 60, 60, 1);
+}
+
+.menu-btn {
+	background-color: #6D350F;
+	border: none;
+	margin: 0px 0px 0px 0px;
+	width: 110px;
+	height: 35px;
+	padding: 5px;
+}
+
+
+.checkout {
+	background-color: #6D350F;
+	margin: 0px 0px 0px 5px;
+	width: 100px;
+	padding: 9px 6px;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+	font-family: "Josefin Sans";
+	font-size: 12px;
+	float: left;
+}
+
+a.checkout:hover {
+	background-color: rgba(198, 60, 60, 1);
+}
+
+#pickup {
+	margin: 0 0 0 17px; 
+	cursor: pointer;
+}
+
+#delivery {
+	margin: 0 0 0 4px; 
+	cursor: pointer;
+}
+
+.branch {
+	margin: 5px 0 7px 0;
+}
+
+
+#burbank {
+	margin: 0 0 0 8px; 
+	cursor: pointer;
+}
+
+#westhollywood {
+	cursor: pointer;
+}
+
+#studiocity {
+	cursor: pointer;
+}
+
+label {
+	margin: 0 10px 0 0; 
+	cursor: pointer;
+}
+ 	
+.form {
+	background-color: rgba(198, 60, 60, 0.8);
+	margin: 22px 0 0 0; 
+	font-family: "Josefin Sans"; 
+	color: #fff; 
+	font-size: 0.8em;
+	line-height: 1.8em;
+	padding: 15px
+}
+
+.form2 {
+	background-color: rgba(198, 60, 60, 0.8);
+	margin: 22px 0 0 0; 
+	font-family: "Josefin Sans"; 
+	font-weight: 600;
+	color: #fff; 
+	font-size: 0.8em;
+	line-height: 1.8em;
+	padding: 25px
+}
+
+.tip {
+	margin: 50px 0 0 0;
+}
+
+.totaltab {
+	margin: -44px 0 0 140px;
+}
+
+#totaltab {display: block; width: 110px;}
+
+.form-left {
+	float: left; 
+	margin: 0 30px 0 0;
+}
+
+.form-right1 {
+	float: left; 
+	margin: 0 10px 0 0; 
+	width: 110px
+}
+
+#email, #first, #yourmessage, #lastname, #address, #cardtype, #cardnumber, #expirationdate, #securitycode, #tip, #specialinstructions {
+	display: block;
+}
+
+#firstname {
+	display: block;
+}
+
+#tip {
+	width: 110px;
+}
+
+#expirationdate, #securitycode {
+	width: 90px;
+}
+
+#cardnumber {
+	width: 220px;
+}
+
+#cash {
+	margin: 0 0 0 10px; 
+	cursor: pointer;
+}
+
+#cardtype {
+	margin: 7px 0 0 0; 
+	cursor: pointer;
+}
+
+#cardt {
+	margin: 0 0 10px 0px; 
+	width: 220px;
+}
+
+
+select {
+    -webkit-appearance: button; 
+    -moz-appearance: button;
+    -webkit-padding-start: 2px;
+    -moz-padding-start: 2px;
+   	border-radius: 0;
+   	font-family: "Josefin Sans";
+   	font-size: 0.8em;
+   	color: #403939;
+   	border: none;
+	padding: 0 0 0 10px;
+ 	height: 22px;
+    white-space: nowrap;
+}
+
+
+#specialinstructions {
+	width: 462px;
+}
+
+.paymenttype {
+	margin: 12px 0 0 0;
+}
+
+#address {
+	width: 462px;
+}
+
+#lastname {
+	width: 216px;
+}
+
+.yourmessage {
+	margin: 10px 0 0 0;
+}
+
+#yourmessage {
+	width: 465px
+}
+
+#first {
+	width: 216px; 
+	height: 22px;
+}
+
+#firstname {
+	width: 216px; 
+	height: 20px;
+}
+
+#email {
+	width: 216px; 
+	height: 22px;
+}
+	
+.darshan, .sam {
+	position: relative; 
+	z-index: 100; 
+	float: left; 
+	margin: 20px 0 0 20px; 
+}
+
+.captions {
+	float: left; 
+	text-align: centered;
+}
+
+.namecontainer1 {
+	background-color: rgba(198, 60, 60, 0.9); 
+	width: 199px; 
+	height: 30px; 
+	margin: -30px 0 0 41px;
+	padding: 2px 0 0 0;
+}
+
+
+img.darshan, img.sam {
+	padding: 6px; 
+	background-color: rgba(198, 60, 60, 0.2);
+}
+
+.namecontainer2 {
+	background-color: rgba(198, 60, 60, 0.9); 
+	width: 199px; 
+	height: 32px; 
+	margin: -33px 0 0 280px;
+	padding: 3px 0 0 0;
+	
+}
+	
+.burbankstuff {
+	background-color: #fff;
+	box-shadow: 0.9px 0.9px 10px rgba(0, 0, 0, 0.2);
+	color: #6D350F;
+	position: relative;
+	z-index: 50;
+	width: 922px;
+	height: 305px;
+	margin: 20px 20px 0 30px;
+	padding: 25px;
+	font-family: "Josefin Sans";
+	font-size: 1.1em;
+	line-height: 1.4em;
+}
+
+.westhollywoodstuff {
+	background-color: #fff;
+	box-shadow: 0.9px 0.9px 10px rgba(0, 0, 0, 0.2);
+	color: #6D350F;
+	position: relative;
+	z-index: 50;
+	width: 922px;
+	height: 305px;
+	margin: 30px 20px 0 30px;
+	padding: 25px;
+	font-family: "Josefin Sans";
+	font-size: 1.1em;
+	line-height: 1.4em;
+}
+
+.studiocitystuff {
+	background-color: #fff;
+	box-shadow: 0.9px 0.9px 10px rgba(0, 0, 0, 0.2);
+	color: #6D350F;
+	position: relative;
+	z-index: 50;
+	width: 922px;
+	height: 305px;
+	margin: 30px 20px 0 30px;
+	padding: 25px;
+	font-family: "Josefin Sans";
+	font-size: 1.1em;
+	line-height: 1.4em;
+}
+
+.sunthur, .telephone {
+	margin: 6px 0 0 0;
+}
+
+.address {
+	margin: -17px 0 0 30px;
+}
+
+h3.city {
+	color: rgba(198, 60, 60, 1); 
+}
+
+.street {
+	margin: -5px 0 0 0;
+}
+
+h4.names {
+	color: #fff; 
+	font-family: "Lora"; 
+	font-weight: 400; 
+	font-size: 0.7em; 
+	margin: 7px 0 0 0;
+}
+
+p.intro {
+	color: #6D350F;
+	background-color: #fff;
+	box-shadow: 0.9px 0.9px 10px rgba(0, 0, 0, 0.2);
+	z-index: 100; 
+	font-family: "Josefin Sans"; 
+	line-height: 1.4em;
+	width: 433px;
+	height: 360px; 
+	float: left;
+	margin: -302px 0 0 516px;
+	padding: 25px;
+	font-size: 1.1em;
+}
+
+h4.names {
+	padding: 0 0 0 20px;
+}
+
+.photoalbumtitle {
+	margin: 10px 0 0 50px;
+}
+
+h2.photoalbumtype {
+	color: #C63C3C;
+	font-family: "Lora";
+	font-weight: 400; 
+	position: relative; 
+}
+	
+.photoalbums {
+	float: left; 
+	margin: 20px 0 0 41px; 
+	position: relative;
+}
+
+.celebritywall, .interior, .food {
+	margin: 10px 28px 0 0; 
+	padding: 6px; 
+	background-color: rgba(198, 60, 60, 0.2);
+}
+
+
+.specials {
+	z-index: 150; 
+	position: relative; 
+	margin: 0px 10px 0 35px;
+}
+
+.butterchicken, .chickentikkamasala, .frankielunch, .lambcurry, .chickencurrylunch, .southindianlunch {
+	margin: 30px 25px 0 0;
+}
+
+
+.butterchicken1 {
+	float: left; 
+	width: 295px; 
+	font-family: "Josefin Sans", Arial, serif;
+	font-size: 0.9em; 
+	font-weight: 400; 
+	color: #6D350F;
+	margin: 0 25px 0 0;
+}
+
+.frankielunch1 {
+	float: left; 
+	position: relative; 
+	width: 295px; 
+	font-family: "Josefin Sans", Arial, serif;
+	font-size: 0.9em; 
+	font-weight: 400; 
+	color: #6D350F;
+	margin: 0 25px 0 0;
+}
+
+.chickentikkamasala1 {
+	float: left; 
+	position: relative; 
+	width: 288px; 
+	font-family: "Josefin Sans", Arial, serif;
+	font-size: 0.9em; 
+	font-weight: 400; 
+	color: #6D350F;
+	margin: 0 0 0 30px;
+}
+
+.descriptions {
+	margin: 0 0 0 35px;
+}
+
+.butterchicken1 {margin: 0px 0 0 0; 
+	background-color: #fff;
+	box-shadow: 0.9px 0.9px 10px rgba(0, 0, 0, 0.2); 
+	width: 275px;
+	height: 130px;
+	padding: 0 0 0 15px;}
+	
+.chickentikkamasala1 {
+	margin: 0px 0 0 28px; 
+	background-color: #fff;
+	box-shadow: 0.9px 0.9px 10px rgba(0, 0, 0, 0.2); 
+	width: 290px;
+	height: 130px;
+	padding: 0 15px 0 15px;}
+
+.frankielunch1 {
+	margin: 0px 0 0 30px; 
+	background-color: #fff;
+	box-shadow: 0.9px 0.9px 10px rgba(0, 0, 0, 0.2); 
+	width: 289px;
+	height: 130px;
+	padding: 0 10px 0 15px;
+}
+
+#chilipanner {float: left;}
+
+#chickensagg {float: left;}
+
+#shrimpsagg {float: left;}
+
+#samosa {float:left;}
+ 
+.specials2 {z-index: 150; position: relative; margin: 150px 10px 0 35px;}
+
+.descriptions2 {margin: 0 0 0 35px;}
+
+.lambcurry1, .chickencurry1, .southindianlunch1 {
+	float: left; 
+	position: relative; 
+	width: 270px; 
+	font-family: "Josefin Sans", Arial, serif;
+	font-size: 0.9em; 
+	font-weight: 400; 
+	color: #6D350F;
+	margin: 10px 19px 0 0;
+}
+
+.lambcurry1 {margin: 0 0 0 0; 
+	background-color: #fff;
+	box-shadow: 0.9px 0.9px 10px rgba(0, 0, 0, 0.2); 
+	width: 274px;
+	height: 130px;
+	padding: 0 15px 0 15px;}
+	
+.chickencurry1 {
+	margin: 0 0 0 30px; 
+	background-color: #fff;
+	box-shadow: 0.9px 0.9px 10px rgba(0, 0, 0, 0.2); 
+	width: 291px;
+	height: 130px;
+	padding: 0 15px 0 15px;}
+
+.southindianlunch1 {
+	margin: 0 0 0 28px; 
+	background-color: #fff;
+	box-shadow: 0.9px 0.9px 10px rgba(0, 0, 0, 0.2); 
+	width: 288px;
+	height: 130px;
+	padding: 0 10px 0 15px;
+}
+
+.menu-container {
+	display: none;
+	margin: 85px 0 0 33px; 
+	background-color: #fff;
+	box-shadow: 0.9px 0.9px 10px rgba(0, 0, 0, 0.2); 
+	width: 921px;
+	min-height: 740px;
+	padding: 1px 0 0 0;
+}
+
+.menu-container.open {
+	display: block;
+}
+
+p.bold2 {font-family: "Lora"; color: #C63C3C; font-weight: 400; font-size: 1.1em; margin: 10px 0 5px 0;}
+
+p.bold {font-family: "Lora"; color: #C63C3C; font-weight: 700; font-size: 1.3em; float: left; margin: 0 0 0 20px;}
+
+p.bold3 {font-family: "Lora"; color: #6D350F; font-weight: 700; font-size: 1.3em; float: left; margin: 0 0 0 20px;}
+
+p.bold4 {
+	font-family: "Lora"; 
+	color: #6D350F; font-weight: 700; 
+	font-size: 1.3em; 
+	float: left; 
+	margin: 0 0 0 74px; 
+	height: 110px; 
+	padding: 0 0 0 30px; 
+	border-left: solid; 
+	border-width: 1px;  
+	border-color: #BCB6B7;
+}
+
+p.bold5 {
+	font-family: "Lora"; 
+	color: #6D350F; font-weight: 700; 
+	font-size: 1.3em; 
+	float: left; 
+	margin: 0 0 0 50px; 
+	height: 110px; 
+	padding: 0 0 0 30px; 
+	border-left: solid; 
+	border-width: 1px;  
+	border-color: #BCB6B7;
+}
+
+p.panner {
+	font-family: "Josefin Sans", Arial, serif;
+	color: #6D350F;
+	font-size: 1.2em; 
+	float: left; 
+	font-weight: 400; 
+	margin: 40px 0 0 -190px;
+	width: 300px;
+}
+
+p.panner0 {
+	font-family: "Josefin Sans", Arial, serif;
+	color: #6D350F;
+	font-size: 1.2em; 
+	float: left; 
+	font-weight: 400; 
+	margin: 40px 0 0 -190px;
+	width: 260px;
+}
+
+.addtocart, .addtocart1, .addtocart2, .remove, .remove2 {
+	line-height: 1;
+	padding: 0 0 px 0;
+}
+
+.addtocart {
+	width: 120px; 
+	height: 30px; 
+	font-family: "Josefin Sans"; 
+	color: #fff;
+	background-color: rgba(198, 60, 60, 0.8);
+	font-size: 1.2em;
+	float: left; 
+	margin: 100px 0 0 -300px;
+	text-align: center;
+}
+
+button {
+	background-color: rgba(198, 60, 60, 0.8); 
+	font-size: 1.5em; 
+	font-weight: 700; 
+	float: right; 
+	margin: 14px -15px 0 0; 
+	width: 90px;
+	padding: 7px 0 3px 0;
+	border: none; 
+	text-shadow: 0 -1px 0 rgba(0,0,0,0.8);
+	box-shadow: 0 2px 4px rgba(0,0,0,0.2), 0 1px 0 rgba(255,255,255,0.2) inset;
+	cursor: pointer;
+}
+
+.addtocart1 {
+	width: 120px; 
+	height: 30px; 
+	font-family: "Josefin Sans"; 
+	color: #fff;
+	background-color: rgba(198, 60, 60, 0.8);
+	font-size: 1.2em;
+	float: left; 
+	margin: 100px 0 0 -260px;
+	text-align: center;
+}
+
+.item {float: left; width: 400px; margin: -15px 0 0 25px;}
+
+.item1 {margin: 30px 0 0 30px; width: 600px;}
+
+.item3 {float: left; width: 400px; margin: -15px 0 0 -14px;}
+
+.item2, .item4, item5 {float: left; width: 400px; margin: -15px 0 0 -13px;}
+
+p.panner2 {
+	font-family: "Josefin Sans", Arial, serif;
+	color: #6D350F;
+	font-size: 1.2em; 
+	float: left; 
+	font-weight: 400; 
+	margin: -60px 0 0 170px;
+	width: 250px;
+}
+
+.addtocart2 {
+	width: 120px; 
+	height: 30px; 
+	font-family: "Josefin Sans"; 
+	color: #fff;
+	background-color: rgba(198, 60, 60, 0.8);
+	font-size: 1.2em;
+	margin: 3px 0 0 170px;
+	float: left;
+	text-align: center;	
+}
+
+.row1, .row2, .row3 {
+	height: 140px;
+}
+
+p.panner1 {
+	font-family: "Josefin Sans", Arial, serif;
+	color: #6D350F;
+	font-size: 1.2em; 
+	float: left; 
+	font-weight: 400; 
+	margin: 40px 0 0 -200px;
+	width: 300px;
+}
+
+p.panner3 {
+	font-family: "Josefin Sans", Arial, serif;
+	color: #6D350F;
+	font-size: 1.2em; 
+	float: left; 
+	font-weight: 400; 
+	margin: 40px 0 0 -135px;
+	width: 300px;
+}
+
+p.panner4 {
+	font-family: "Josefin Sans", Arial, serif;
+	color: #6D350F;
+	font-size: 1.2em; 
+	float: left; 
+	font-weight: 400; 
+	margin: 40px 0 0 -192px;
+	width: 300px;
+}
+
+.next {	
+	font-family: "Josefin Sans", Arial, serif; 
+	font-weight: 600; 
+	color: #6D350F;
+	float: right; 
+	margin: 10px 20px 0 0;
+}
+
+a.next:hover, a.next:active {
+	color: #C63C3C;
+}
+
+
+.remove {
+	width: 100px; 
+	height: 30px; 
+	font-family: "Josefin Sans"; 
+	color: #fff;
+	background-color: rgba(198, 60, 60, 0.8);
+	font-size: 1.2em;
+	float: left; 
+	margin: 65px 0 0 -15px;
+	text-align: center;
+}
+
+.change {
+	width: 100px; 
+	height: 30px; 
+	font-family: "Josefin Sans"; 
+	color: #fff;
+	background-color: #6D350F;
+	font-size: 1.2em;
+	float: left; 
+	margin: 65px 10px 0 -129px;
+	text-align: center;
+}
+
+.remove2 {
+	width: 100px; 
+	height: 30px; 
+	font-family: "Josefin Sans"; 
+	color: #fff;
+	background-color: rgba(198, 60, 60, 0.8);
+	font-size: 1.2em;
+	float: left; 
+	margin: 65px 0 0 -15px;
+	text-align: center;
+	
+}
+
+.change2 {
+	width: 100px; 
+	height: 30px; 
+	font-family: "Josefin Sans"; 
+	color: #fff;
+	background-color: #6D350F;
+	font-size: 1.2em;
+	float: left; 
+	margin: 65px 28px 0 -90px;
+	text-align: center;	
+}
+
+
+#shrimpsaggitem, #bhelpuriitem {
+	float: left;
+}
+
+.cartrow2 {
+	margin: 30px 0 0 30px;
+}
+
+.cartrow1 {
+	margin: 16px 0 0 30px;
+}
+
+p.quantity {
+	float: left; 
+	margin: 35px 0 0 -130px; 
+	font-family: "Josefin Sans"; 
+	font-weight: 600; 
+	color: #C63C3C;
+}
+ 
+p.quantity1 {
+	float: left; 
+	margin: 35px 0 0 -93px; 
+	font-family: "Josefin Sans"; 
+	font-weight: 600; 
+	color: #C63C3C;
+}
+  
+
+
+hr.line {
+	width: 550px; 
+	margin: 30px 0 -13px 30px;
+}
+
+.itemsadded {float: left;}
+
+.itemsaddedtotal {
+	float: left; 
+	font-family:"Lora"; 
+ 	font-weight: 400; 
+	color: #C63C3C;
+	font-size: 1.3em; 
+	margin: 30px 0 0 40px;
+	line-height: 13px;
+	
+	height: 290px; 
+	padding: 0 0 0 40px; 
+	border-left: solid; 
+	border-width: 1px;  
+	border-color: #BCB6B7;
+}
+
+#checkoutline {
+	height: 128px;
+}
+
+ .items {
+	 float: left;
+}
+
+ .items2 {
+	 float: left; margin: -30px 0 0 0;
+}
+
+.finaltotal {
+	font-weight: 800;
+}
+
+.itemsaddedtotalamount { 
+	font-family:"Lora"; 
+ 	font-weight: 400; 
+	color: #C63C3C;
+	font-size: 1.3em; 
+	line-height: 13px;
+	float: left;
+	margin: 20px 0 0 30px;
+}
+	
+.amount3 {
+	font-weight: 800;
+}
+
+p.subtotal {
+	margin: 10px 0 0 0;
+}
+
+.moreless {
+	text-shadow: 0.9px 0.9px 2.5px rgba(0, 0, 0, 0.2); 
+	font-size: 1.2em; 
+	font-weight: 800; 
+	margin: 0 0 0 6px;
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+html *, html *:before, html *:after {
+    box-sizing: border-box;
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Hide visually and from screen readers
+ */
+
+.hidden {
+    display: none !important;
+}
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 1.25dppx),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   http://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after,
+    *:first-letter,
+    *:first-line {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster:
+                                   http://www.sanbeiji.com/archives/953 */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    /*
+     * Printing Tables:
+     * http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+		
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
