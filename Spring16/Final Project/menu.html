@@ -86,11 +86,13 @@
 
 <div class="row3">
 
-<div class= "item1"> <p><img src="assets/Menu Items/shrimpsagg.png" alt="chilipanner" width="150" id="shrimpsagg"  /> <p class="bold clearfix"> Shrimp Sagg $13.95</p> <p class="panner4 clearfix">Puree spinach leaves and lamb or chicken with onions and chili.</p> <button class="addtocart clearfix" type="button">Add to cart</button> </p></div> 
+<div class= "item1"> <p><img src="assets/Menu Items/shrimpsagg.png" alt="chilipanner" width="150" id="shrimpsagg"  /> <p class="bold clearfix"> Shrimp Sagg $13.95</p> <p class="panner4 clearfix">Puree spinach leaves and lamb or chicken with onions and chili.</p> <button class="addtocart clearfix" type="button">Add to cart </button>  </p>  </div> 
 
 <div class= "item4"> <p><img src="assets/Menu Items/currythali.jpg" alt="currythali" width="148" id="currythali" align="left"/> <p class="bold"> Curry Thali $17.95</p> <p class="panner2">Vegetarian entree and chicken curry with dal, rice, raita, naan</p> <button class="addtocart2" type="button">Add to cart</button> </p></div> 
 
 </div>
+
+<div class="confirmmessage"> Added to cart! </div>
 
 <div class="row4">
 
@@ -115,7 +117,7 @@
 
 
 <div class="cartrow1">
-	<div class= "shrimpsaggitem clearfix"> <p><img src="assets/Menu Items/shrimpsagg.png" alt="shrimpsagg" width="150" id="shrimpsaggitem"  /> <p class="bold3"> 			Shrimp Sagg </p> <p class="quantity">Quantity: 1 <span class="moreless">+ -</span></p> <button class="change" type="button">Change</button> <button class="remove" type="button">Remove</button>
+	<div class= "shrimpsaggitem clearfix"> <p><img src="assets/Menu Items/shrimpsagg.png" alt="shrimpsagg" width="150" id="shrimpsaggitem"  /> <p class="bold3"> 			Shrimp Sagg </p> <p class="quantity">Quantity: 1 <a href="" class="moreless" >+</a> <a href="" class="moreless"> -</a></p> <button class="change" type="button">Change</button> <button class="remove" type="button">Remove</button>
 <p class="bold4">$13.95</p> </p></div> 
 </div>
 
@@ -123,7 +125,7 @@
 
 <div class="cartrow2">
 
-	<div class= "bhelpuriitem clearfix"> <p><img src="assets/Menu Items/bhel.jpg" alt="bhelpuri" width="150" height="95" id="bhelpuriitem"  /> <p class="bold3"> Bhel Puri </p> <p class="quantity1">Quantity: 1 <span class="moreless">+ -</span></p> <div class="buttons"><button class="change2" type="button">Change</button> <button class="remove2" type="button">Remove</button></div><p class="bold5">$5.95</p> </p>
+	<div class= "bhelpuriitem clearfix"> <p><img src="assets/Menu Items/bhel.jpg" alt="bhelpuri" width="150" height="95" id="bhelpuriitem"  /> <p class="bold3"> Bhel Puri </p> <p class="quantity1">Quantity: 1 <a href="" class="moreless" >+</a> <a href="" class="moreless"> -</a></p> <div class="buttons"><button class="change2" type="button">Change</button> <button class="remove2" type="button">Remove</button></div><p class="bold5">$5.95</p> </p>
 </div> 
 
 </div>
@@ -137,6 +139,8 @@
 <div class="itemsaddedtotal">
 	<div class="cartrow3"> <p class="subtotal">Subtotal: </p></div> 
     <div class="cartrow4"> <p class="tax">Tax: </p></div> 
+    <div class="cartrow4"> <p class="tax">Delivery: </p></div> 
+    <div class="cartrow4"> <p class="tax">Tip: </p></div> 
     <div class="cartrow5"> <p class="finaltotal">Total: </p></div> 
 </div>
 
@@ -181,7 +185,18 @@
 <script src="js/jquery-2.2.3.min.map"></script>
 <script>
 $(document).ready(function () {
+	
+	var hash = window.location.hash;
+	
+	
+	
 	$('.menu-btn').on('click', function () {
+		// deactivate existing
+		$('.menu-btn.active').removeClass('active');
+		// activate button clicked
+		$(this).addClass('active');
+		
+		
 		// close menu container open
 		$('.menu-container').filter('.open').removeClass('open');
 		
@@ -189,7 +204,15 @@ $(document).ready(function () {
 		var menuID = $(this).data('menu');
 		$('#' + menuID).addClass('open');
 	});
-	$('.menu-btn:first').trigger('click');
+	
+	console.log('hash',hash);
+	
+	if (hash == '') {
+		$('.menu-btn:first').trigger('click');
+	} else {
+		$('.menu-btn[data-menu="cart"]').trigger('click');
+	}
+	
 });
 </script>
        

@@ -12,9 +12,11 @@
 
 .background1 {
 	background-image: url(assets/background.jpg);
+	background-attachment: fixed;
 }
 .background2 {
 	background-image: url(assets/background.jpg);
+	background-attachment: fixed;
 }
 
 .container2 {
@@ -237,7 +239,7 @@ p.statement {
 }
 
 .menulink {font-family: "Josefin Sans";
-	font-size: 1em; color: #6D350F; margin: -55px 0 15px 200px; }
+	font-size: 1em; color: #6D350F; margin: -55px 0 15px 199px; }
 	
 	#menulink {color: #C63C3C; }
 
@@ -375,7 +377,6 @@ button:hover {
 	padding: 5px;
 }
 
-
 .checkout {
 	background-color: #6D350F;
 	margin: 0px 0px 0px 5px;
@@ -389,7 +390,7 @@ button:hover {
 	float: left;
 }
 
-a.checkout:hover {
+a.checkout:hover, .menu-btn.active {
 	background-color: rgba(198, 60, 60, 1);
 }
 
@@ -862,7 +863,7 @@ p.bold5 {
 	color: #6D350F; font-weight: 700; 
 	font-size: 1.3em; 
 	float: left; 
-	margin: 0 0 0 50px; 
+	margin: 0 0 0 76px; 
 	height: 110px; 
 	padding: 0 0 0 30px; 
 	border-left: solid; 
@@ -1055,7 +1056,7 @@ a.next:hover, a.next:active {
 	background-color: #6D350F;
 	font-size: 1.2em;
 	float: left; 
-	margin: 65px 28px 0 -90px;
+	margin: 65px 28px 0 -120px;
 	text-align: center;	
 }
 
@@ -1114,7 +1115,7 @@ hr.line {
 }
 
 #checkoutline {
-	height: 128px;
+	height: 189px;
 }
 
  .items {
@@ -1136,11 +1137,12 @@ hr.line {
 	font-size: 1.3em; 
 	line-height: 13px;
 	float: left;
-	margin: 20px 0 0 30px;
+	margin: 20px 0 0 35px;
 }
 	
 .amount3 {
 	font-weight: 800;
+	margin: 87px 0 0 0;
 }
 
 p.subtotal {
@@ -1152,9 +1154,21 @@ p.subtotal {
 	font-size: 1.2em; 
 	font-weight: 800; 
 	margin: 0 0 0 6px;
+	text-decoration: none;
+	color: #C63C3C;
 }
  
-
+ .confirmmessage { 
+ 	font-family:"Josefin Sans"; 
+ 	font-weight: 400; 
+	margin: -40px 0 0 340px;
+	color: #C63C3C; 
+	float: left;
+	font-size: 0.95em;
+	background-color: rgba(109, 53, 15, 0.2);
+	padding: 6px 7px 3px 5px; 
+	box-shadow: 0 2px 4px rgba(0,0,0,0.2), 0 1px 0 rgba(255,255,255,0.2) inset;
+ }
 
 
 
