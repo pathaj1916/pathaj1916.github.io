@@ -136,7 +136,7 @@ a#menu:hover, a#specials:hover, a#orderonline:hover, a#contactus:hover {
 	background-color: #fff; 
 	width: 990px; 
 	margin: 30px auto; 
-	height: 900px;
+	height: 890px;
 	padding: 1px 0 0 0;
 }
 
@@ -160,7 +160,7 @@ a#menu:hover, a#specials:hover, a#orderonline:hover, a#contactus:hover {
 	background-color: #fff; 
 	width: 990px; 
 	margin: 30px auto; 
-	height: 820px;
+	height: 740px;
 	padding: 1px 0 0 0;
 }
 
@@ -173,7 +173,7 @@ a#menu:hover, a#specials:hover, a#orderonline:hover, a#contactus:hover {
 }
  img.image1 {
 	 padding: 9px;
-	 background-color: rgba(198, 60, 60, 0.2);
+	 background-color: rgba(253,220,220,1.00);
 }
 
 #chilipanner, #idli, #chickensagg, #bhel, #shrimpsagg, #currythali, #samosa, #lambthali, .butterchicken, .chickentikkamasala, .frankielunch,.lambcurry, .chickencurrylunch, .southindianlunch, #shrimpsaggitem, #bhelpuriitem {
@@ -181,11 +181,14 @@ a#menu:hover, a#specials:hover, a#orderonline:hover, a#contactus:hover {
 	 background-color: rgba(198, 60, 60, 0.2);
 }
  
+ .cycle-slide, .cycle-slide-active {position: relative;}
+ 
 .image1 {
 	display: block;
-	width: 940px;
+	width: 915px;
 	position: relative;
 	padding: 10px 7px 10px 10px;
+	margin: 0 0 0 7px;
 }
 
 .image-border {
@@ -193,17 +196,31 @@ a#menu:hover, a#specials:hover, a#orderonline:hover, a#contactus:hover {
 	position: relative;
 }
 
-.image-border img {
-	max-width: 100%;
+.image-border2 {
+	margin: 30px;
+	position: relative;
+	float: left;
 }
 
-.image-border img:after {
-	content: "";
-	display: block;
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	border: 10px solid rgba(255, 0, 0, 1);
+.cycle-prev {position: absolute; z-index: 200; margin: -260px 0 0 17px; cursor: pointer;}
+
+.cycle-next {position: absolute; z-index: 200; margin: -260px 0 0 874px; cursor: pointer;}
+
+.cycle-prev1 {position: absolute; z-index: 200; margin: -130px 0 0 11px; cursor: pointer;}
+
+.cycle-next1 {position: absolute; z-index: 200; margin: -130px 0 0 257px; cursor: pointer;}
+
+.cycle-prev2 {position: absolute; z-index: 200; margin: -150px 0 0 314px; cursor: pointer;}
+
+.cycle-next2 {position: absolute; z-index: 200; margin: -150px 0 0 572px; cursor: pointer;}
+
+.cycle-prev3 {position: absolute; z-index: 200; margin: -170px 0 0 630px; cursor: pointer;}
+
+.cycle-next3 {position: absolute; z-index: 200; margin: -170px 0 0 884px; cursor: pointer;}
+
+#prev {position: absolute;}
+.image-border img {
+	max-width: 100%;
 }
 
 .paragraph {
@@ -227,7 +244,7 @@ a#menu:hover, a#specials:hover, a#orderonline:hover, a#contactus:hover {
 	position: relative;
 	z-index: 50;
 	width: 400px;
-	height: 120px;
+	height: 130px;
 	margin: 20px 25px 0 30px;
 	font-family: "Josefin Sans";
 	font-size: 1.1em;
@@ -239,7 +256,7 @@ p.statement {
 }
 
 .menulink {font-family: "Josefin Sans";
-	font-size: 1em; color: #6D350F; margin: -55px 0 15px 199px; }
+	font-size: 1em; color: #6D350F; margin: -62px 0 15px 199px; padding: 0 0 10px 0; }
 	
 	#menulink {color: #C63C3C; }
 
@@ -260,7 +277,7 @@ h1 {
 }
 
 h2.contact { 
-	padding: 0 0 0 30px;
+	padding: 0 0 10px 30px;
 	color: #C63C3C;
 	font-family: "Lora";
 	font-weight: 400;
@@ -268,7 +285,7 @@ h2.contact {
 }
 
 h2.menu { 
-	padding: 0 0 0 30px;
+	padding: 0 0 10px 30px;
 	color: #C63C3C;
 	font-family: "Lora";
 	font-weight: 400;
@@ -276,7 +293,7 @@ h2.menu {
 }
 
 h2.specials { 
-	margin: 20px 0 0 30px;
+	margin: 25px 0 0 30px;
 	color: #C63C3C;
 	font-family: "Lora";
 	font-weight: 400;
@@ -298,12 +315,12 @@ h2.locations {
 	font-size: 0.4em; 
 	font-weight: 200;
 	float: left;
-	margin: 0 12px 0 16px;
+	margin: 0 13px 0 16px;
 	
 }
 	
 .menu1 {
-	margin: 0 0 0 20px;
+	margin: -17px 0 0 17px;
 }
 
 .map, .address {
@@ -316,7 +333,7 @@ h2.locations {
 
 .contactform {
 	float: left; 
-	margin: 38px 0 0 0; 
+	margin: 43px 0 0 0; 
 	font-family: "Josefin Sans";
 	font-size: 1em; 
 	font-weight: 600;
@@ -429,7 +446,7 @@ label {
  	
 .form {
 	background-color: rgba(198, 60, 60, 0.8);
-	margin: 22px 0 0 0; 
+	margin: 29px 0 0 0; 
 	font-family: "Josefin Sans"; 
 	color: #fff; 
 	font-size: 0.8em;
@@ -692,25 +709,29 @@ h2.photoalbumtype {
 	font-family: "Lora";
 	font-weight: 400; 
 	position: relative; 
+	float: left;
 }
 	
 .photoalbums {
-	float: left; 
-	margin: 20px 0 0 41px; 
-	position: relative;
+	margin: 410px 0 0 41px; 
 }
 
 .celebritywall, .interior, .food {
-	margin: 10px 28px 0 0; 
 	padding: 6px; 
 	background-color: rgba(198, 60, 60, 0.2);
+	position: relative;
 }
+
+.interior {margin: -240px 0 0 620px; width: 290px;}
+.food {margin: -283px 0 0 307px; width: 290px;}
+.celebritywall {margin: 80px 0 0 -140px; width: 280px;}
+
 
 
 .specials {
 	z-index: 150; 
 	position: relative; 
-	margin: 0px 10px 0 35px;
+	margin: -10px 10px 0 35px;
 }
 
 .butterchicken, .chickentikkamasala, .frankielunch, .lambcurry, .chickencurrylunch, .southindianlunch {
