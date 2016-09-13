@@ -1,0 +1,442 @@
+/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+
+*, *:before, *:after {
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box; 
+    box-sizing: border-box;
+}
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+.staticbackgroundandlayers { 
+	width: 350px;
+	background-image:url(../../staticbackground.jpg);
+	background-repeat: no-repeat; 
+	background-position:center; 
+	position: relative;  
+	margin: 0 auto;
+}
+
+.background { 
+	background: rgba(175, 110, 65, 0.5);
+	width: 350px; 
+	height: 350px; 
+	float: center;
+ }
+ 
+.background:hover {
+	background: rgba(6, 14, 56, 0.7); 
+	transition-duration: 24s;
+	transition-delay: 0.3s;
+	transition-property: background;
+	transition-timing-function: ease-in-out;
+}
+
+.background:hover #warm {
+	color: rgba(247, 147, 30, 1);
+	transition-duration: 4s, 4s, 1s;
+	transform: translate(0, 210px);	
+	transition-delay: 0.3s, .3s, 5s;
+	transition-property: transform, color, opacity;
+	transition-timing-function: ease-in-out;
+	opacity: 0;
+}
+
+.background:hover #midnight {
+	color: rgba(247, 147, 30, 1);
+	transition-duration: 4s, 4s, 1s;
+	transform: translate(0, 240px);	
+	transition-delay: 0.3s, .3s, 5s;
+	transition-property: transform, color, opacity;
+	transition-timing-function: ease-in-out;
+	opacity: 0;
+}
+
+.background:hover #falling {
+	color: rgba(247, 147, 30, 1);
+	transition-duration: 4s, 4s, 1s;
+	transform: translate(0, 200px);	
+	transition-delay: 0.3s, .3s, 5s;
+	transition-property: transform, color, opacity;
+	transition-timing-function: ease-in-out;
+	opacity: 0;
+}
+
+
+#warm {
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif; 
+	color: rgba(247, 147, 30, 0); 
+	font-size: 2em; 
+	font-weight: 100; 
+	padding: 0 0 0 75px; 
+	width: 350px; 
+	height: 350px; 
+	position: absolute;
+}
+
+#midnight {
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;  
+	color: rgba(247, 147, 30, 0); 
+	font-size: 2em; 
+	font-weight: 100; 
+	padding: 0 0 0 25px; 
+	width: 350px; 
+	height: 350px; 
+	position: relative;
+}
+
+#falling {
+	font-family: "Great Vibes"; 
+	color: rgba(247, 147, 30, 0); 
+	font-size: 5em; 
+	padding: 0 0 0 150px; 
+	margin: -350px 0 0 0; 
+}
+
+
+#stars {
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;  
+	color: rgba(255, 255, 255, 0); 
+	font-size: 2em; 
+	font-weight: 100; 
+	padding: 0 0 0 250px;
+	margin: -112px 0 0 0; 
+	width: 350px; 
+	height: 350px; 
+	position: relative;
+}
+
+.background:hover #stars {
+	color: rgba(255, 255, 255, 1);
+	transition-duration: 4s, 4s, 1s;
+	transform: translate(0, 90px);	
+	transition-delay: 5.5s, 5.5s, 16s;
+	transition-property: transform, color, opacity;
+	transition-timing-function: ease-in-out;
+	opacity: 0;
+}
+
+#star1 {margin: -180px 0 0 -145px; opacity: 0;}
+
+.background:hover #star1 {
+	transition-duration: 0.5s, 3s, 1s;
+	transform: translate(0, 90px);	
+	transition-delay: 4s, 10s;
+	transition-property: transform, opacity;
+	transition-timing-function: ease-in-out;
+	opacity: 1;
+}
+
+#star2 {width: 5px; height: 5px; opacity: 0;}
+
+.background:hover #star2 {
+	transition-duration: 2s, 3s, 1s;
+	transform: translate(110px, -35px);	
+	transition-delay: 5s, 11s;
+	transition-property: transform, opacity;
+	transition-timing-function: ease-in-out;
+	opacity: 1;
+}
+
+
+#star3 {width: 5px; height: 5px; opacity: 0;}
+
+.background:hover #star3 {
+	transition-duration: 4s, 3s, 1s;
+	transform: translate(-150px, -100px);	
+	transition-delay: 5s, 13.3s;
+	transition-property: transform, opacity;
+	transition-timing-function: ease-in-out;
+	opacity: 1;
+}
+
+#shining {
+	font-family: "Great Vibes"; 
+	color: rgba(255, 255, 255, 0); 
+	font-size: 5em; 
+	padding: 0 0 0 150px; 
+	margin: -360px 0 0 0; 
+}
+
+.background:hover #shining {
+	color: rgba(255, 255, 255, 1);
+	transition-duration: 4s, 5s, 1s;
+	transform: translate(0, 105px);	
+	transition-delay: 7.5s, 7.8s, 16s;
+	transition-property: transform, color, opacity;
+	transition-timing-function: ease-in-out;
+	opacity: 0;
+}
+
+#dancing {
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;  
+	color: rgba(255, 255, 255, 0); 
+	font-size: 2em; 
+	font-weight: 100; 
+	padding: 0 0 0 175px;
+	margin: -112px 0 0 0; 
+	width: 350px; 
+	height: 350px; 
+	position: relative;
+}
+
+.background:hover #dancing {
+	color: rgba(255, 255, 255, 1);
+	transition-duration: 4s, 4s, 1s;
+	transform: translate(0, 210px);	
+	transition-delay: 9s, 9.5s, 16s;
+	transition-property: transform, color, opacity;
+	transition-timing-function: ease-in-out;
+	opacity: 0;
+}
+
+#brightly {
+	font-family: "Great Vibes"; 
+	color: rgba(255, 255, 255, 0); 
+	font-size: 5em; 
+	padding: 0 0 0 85px; 
+	margin: -350px 0 0 0; 
+}
+
+.background:hover #brightly {
+	color: rgba(255, 255, 255, 1);
+	transition-duration: 4s, 5s, 1s;
+	transform: translate(0, 230px);	
+	transition-delay: 11s, 11.6s, 16s;
+	transition-property: transform, color, opacity;
+	transition-timing-function: ease-in-out;
+	opacity: 0;
+}
+
+#peaceful {
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;  
+	color: rgba(255, 255, 255, 0); 
+	font-size: 2em; 
+	font-weight: 100; 
+	padding: 10px 0 0 120px;
+	width: 350px; 
+	height: 350px; 
+	position: relative;
+}
+
+.background:hover #peaceful {
+	color: rgba(255, 255, 255, 1);
+	transition-duration: 3s, 1s;	
+	transition-delay: 17.5s, 25s;
+	transition-property: color, opacity;
+	transition-timing-function: ease-in-out;
+	opacity: 0;
+}
+
+#all {
+	font-family: "Great Vibes"; 
+	color: rgba(255, 255, 255, 0); 
+	font-size: 5em; 
+	padding: 133px 0 0 45px; 
+	margin: -450px 0 0 0; 
+	width: 350px; height: 350px;
+}
+
+.background:hover #all {
+	color: rgba(255, 255, 255, 1);
+	transition-duration: 3s, 1s;
+	transition-delay: 19s, 25s;
+	transition-property: color, opacity;
+	transition-timing-function: ease-in-out;
+	opacity: 0;
+}
+
+#at {
+	font-family: "Great Vibes"; 
+	color: rgba(255, 255, 255, 0); 
+	font-size: 5em; 
+	padding: 133px 0 0 126px; 
+	margin: -350px 0 0 0; 
+	width: 350px; height: 350px;
+}
+
+.background:hover #at {
+	color: rgba(255, 255, 255, 1);
+	transition-duration: 3s, 1s;
+	transition-delay: 20s, 25s;
+	transition-property: color, opacity;
+	transition-timing-function: ease-in-out;
+	opacity: 0;
+}
+
+#once {
+	font-family: "Great Vibes"; 
+	color: rgba(255, 255, 255, 0); 
+	font-size: 5em; 
+	padding: 133px 0 0 190px; 
+	margin: -350px 0 0 0; 
+	width: 350px; height: 350px;
+}
+
+.background:hover #once {
+	color: rgba(255, 255, 255, 1);
+	transition-duration: 3s, 1s;
+	transition-delay: 21s, 25s;
+	transition-property: color, opacity;
+	transition-timing-function: ease-in-out;
+	opacity: 0;
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
