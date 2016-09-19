@@ -1,0 +1,432 @@
+/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+
+*, *:before, *:after {
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box; 
+    box-sizing: border-box;
+}
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+.pursebackground {
+	width: 350px;
+	height: 350px;
+	position: absolute;
+	margin: 0 auto;
+	left: 559px;
+	background-color: #FFFEE6;
+
+	overflow: hidden
+	
+}
+
+	
+.beige {
+	width: 20px; 
+	height: 20px;  
+	background-color: #FFDDDD;
+	animation-name: animate2; 
+	animation-duration: 10s;
+	animation-delay: 0s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-fill-mode: both;
+	animation-timing-function: linear;
+	
+}
+
+.red {
+	width: 20px; 
+	height: 20px; 
+	background-color: #BB292B; 
+	animation-name: animate; 
+	animation-duration: 15s;
+	animation-delay: 2;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-fill-mode: both;
+	animation-timing-function: linear;
+}
+
+.pink {
+	width: 20px; 
+	height: 20px; 
+	background-color: #FF7C7E;
+	animation-name: animate3; 
+	animation-duration: 8s;
+	animation-delay: 4;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-fill-mode: both;
+	animation-timing-function: linear;
+}  
+
+
+.brown {
+	width: 20px; 
+	height: 20px; 
+	background-color: #582D2E; 
+	animation-name: animate4; 
+	animation-duration: 9s;
+	animation-delay: 6;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-fill-mode: both;
+	animation-timing-function: linear;
+}
+ 
+.brown2 {
+	width: 20px; 
+	height: 20px; 
+	background-color: #582D2E ;
+	animation-name: animate5; 
+	animation-duration: 10s;
+	animation-delay: 8s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-fill-mode: both;
+	animation-timing-function: linear;
+}
+
+.beige3 {
+	width: 20px; 
+	height: 20px; 
+	background-color: #FFDDDD ;
+	animation-name: animate6; 
+	animation-duration: 12s;
+	animation-delay: 2s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-fill-mode: both;
+	animation-timing-function: linear;
+}
+
+.beige4 {
+	width: 20px; 
+	height: 20px; 
+	background-color: #FFDDDD ;
+	animation-name: animate11; 
+	animation-duration: 15s;
+	animation-delay: 0s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-fill-mode: both;
+	animation-timing-function: linear;
+}
+ 
+ .deepred2 {
+	width: 20px; 
+	height: 20px; 
+	background-color: #7D0608; 
+		animation-name: animate7; 
+	animation-duration: 15s;
+	animation-delay: 4s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-fill-mode: both;
+	animation-timing-function: linear; 
+}
+	
+.beige2 {
+	width: 20px; 
+	height: 20px; 
+	background-color: #FFDDDD; 
+		animation-name: animate8; 
+	animation-duration: 10s;
+	animation-delay: 6s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-fill-mode: both;
+	animation-timing-function: linear; 
+}
+
+	
+.pink2 {
+	width: 20px; 
+	height: 20px; 
+	background-color: #FF7C7E; 
+		animation-name: animate9; 
+	animation-duration: 9s;
+	animation-delay: 8s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-fill-mode: both;
+	animation-timing-function: linear; 
+}
+	
+.red2 {
+	width: 20px; 
+	height: 20px; 
+	background-color: #BB292B; 
+		animation-name: animate10; 
+	animation-duration: 5s;
+	animation-delay: 2s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-fill-mode: both;
+	animation-timing-function: linear;  
+}
+
+.red3 {
+	width: 20px; 
+	height: 20px; 
+	background-color: #BB292B; 
+		animation-name: animate12; 
+	animation-duration: 15s;
+	animation-delay: 0s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-fill-mode: both;
+	animation-timing-function: linear;  
+}
+ 
+ @keyframes animate {
+	0% {width: 40px; height: 40px; background-color: #BB292B; }
+	50% {width: 60px; height: 60px;}
+	75% {background-color: #FF7C7E;}
+	100% {width: 20px; height: 20px; margin: -345px 0 0 320px;} 
+	  
+	 }
+	 
+@keyframes animate2 {
+	0% {width: 20px; height: 20px; background-color: #FFDDDD;}
+	50% {width: 40px; height: 40px;}
+	75% {background-color: #7D0608;}
+	100% {width: 10px; height: 10px; margin: -270px 0 0 320px;} 
+	  
+	 }
+	 
+@keyframes animate3 {
+	0% {width: 10px; height: 10px; background-color: #FF7C7E;}
+	50% {width: 50px; height: 50px;}
+	75% {background-color: #BB292B;}
+	100% {width: 10px; height: 10px; margin: 120px 0 0 320px;} 
+	  
+	 }
+	 
+	 @keyframes animate4 {
+	0% {width: 5px; height: 5px; background-color: #582D2E; margin: 20px 0 0 0;}
+	20% {background-color: #FFDDDD;}
+	50% {width: 10px; height: 10px;}
+	80% {width: 15px; height: 15px;}
+	100% {width: 25px; height: 25px; margin: 120px 0 0 320px; background-color: #D32E69;} 
+	  
+	 }
+	 
+	  @keyframes animate5 {
+	0% {width: 15px; height: 15px; background-color: #582D2E; margin: 20px 0 0 0;}
+	20% {background-color: #D50003;}
+	50% {width: 10px; height: 10px;}
+	80% {width: 15px; height: 15px;}
+	100% {margin: -120px 0 0 320px; background-color: #E35D42;} 
+	  
+	 }
+	 
+	   @keyframes animate6 {
+	0% {width: 25px; height: 25px; background-color: #FFDDDD; margin: -100px 0 0 0;}
+	20% {background-color: #CF7904;}
+	50% {width: 35px; height: 35px;}
+	100% {width: 20px; height: 20px; margin: -100px 0 0 320px; background-color: #582D2E;} 
+	  
+	 }
+	 
+	   @keyframes animate7 {
+	0% {width: 15px; height: 15px; background-color: #7D0608; margin: -70px 0 0 0;}
+	50% {width: 60px; height: 60px;}
+	100% { width: 20px; height: 20px; margin: -100px 0 0 325px; background-color: #FFD7D7;} 
+	  
+	 }
+ 
+ 
+  @keyframes animate8 {
+	0% {width: 25px; height: 25px; background-color: #D32E69; margin: -40px 0 0 0;}
+	100% {width: 20px; height: 20px; margin: -100px 0 0 325px; background-color: #FFA02D;} 
+	  
+	 }
+	 
+	 @keyframes animate9 {
+	0% {width: 20px; height: 20px; background-color: #FF7C7E; margin: -100px 0 0 0;}
+	100% {width: 60px; height: 60px; margin: -100px 0 0 325px; background-color: #E91E68;} 
+	  
+	 }
+	 
+	  @keyframes animate10 {
+	0% {width: 60px; height: 60px; background-color: #BB292B; margin: -86px 0 0 0;}
+	100% {width: 20px; height: 20px; margin: -100px 0 0 325px; background-color: #5F0001;} 
+	  
+	 }
+ 
+ 	   @keyframes animate11 {
+	0% {width: 0px; height: 0px; background-color: #DE4E11; margin: -80px 0 0 0;}
+	20% {background-color: #A40A0C;}
+	100% {width: 50px; height: 50px; margin: -100px 0 0 320px; background-color: #582D2E;} 
+	  
+	 }
+	 
+	   @keyframes animate12 {
+	0% {width: 60px; height: 60px; background-color: #BB292B; margin: 10 0 0 0;}
+	50% {width: 0px; height: 0px;}
+	100% {width: 20px; height: 20px; margin: -100px 0 0 325px; background-color: #A87071;} 
+	  
+	 }
+ 
+ 
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
