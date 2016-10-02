@@ -1,17 +1,18 @@
 <!DOCTYPE html>
 <html>
-    <head>
+<head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Banner Ad - Medium Rectangle (300x250)</title>
         <meta name="ad.size" content="width=300,height=250">
         <meta name="description" content="">
 
-        <style>
+    <style>
             /*
              * Banner container, do not change
              */
-            #medium-rectangle {
+			
+			#medium-rectangle {
                 background: #fff;
                 border: 1px solid #ccc;
                 display: block;
@@ -22,10 +23,846 @@
                 position: relative;
                 width: 300px;
             }
+		
+			.starbuckspatternbackground {
+				display: block;
+    			margin: -900px 0 0 0;
+                overflow: hidden;
+                padding: 0;
+                position: absolute;
+             	animation-name: starbuckspatternbackground; 
+				animation-duration: 11s;
+				animation-delay: 0s;
+				animation-iteration-count: infinite;
+				animation-direction: normal;
+				animation-fill-mode: none;
+				animation-timing-function: linear;
+			}
+				
+			@keyframes starbuckspatternbackground {
+                0% {
+					opacity: 1;
+                    margin: -900px 0 0 0 0;
+                }
+				99% {
+					opacity: 1;
+				}
+                100% {
+					opacity: 0; 
+					transform: translate(0, 450px);
+                }
+            }
+				
+			.beigebackground {
+				display: block;
+                height: 250px;
+                margin: 0 0 0 0px;
+                overflow: hidden;
+                padding: 0;
+                width: 300px;
+				position: absolute;
+			}
 
+			.coffeecup {
+				position: absolute;
+				z-index: 1;
+				animation-name: coffeecupup; 
+				animation-duration: 2s;
+				animation-delay: 2s;
+				animation-iteration-count: 1;
+				animation-direction: alternate;
+				animation-fill-mode: both;
+				animation-timing-function: ease-out;	
+			}
+			
+			@keyframes coffeecupup {
+                0% {
+                    margin: 75px 0 0 0;
+                }
+                100% {
+                    margin: 0 0 0 0;
+                }
+            }
+			
+			.smallheart {
+				position: absolute;
+				z-index: 2;
+				animation-name: smallheartup; 
+				animation-duration: 2s;
+				animation-delay: 4s;
+				animation-iteration-count: 1;
+				animation-direction: alternate;
+				animation-fill-mode: both;
+				animation-timing-function: linear;
+			}
+			
+			@keyframes smallheartup {
+                0% {
+                    margin: 3px 0 0 0;
+					opacity: 0;
+                }
+				20% { 
+					margin: 3px 0 0 0;
+					opacity: 1;
+				}
+				35% { 
+					margin: 3px 0 0 0;
+					opacity: 1;
+				}
+				75% { 
+					opacity: 0;}
+                100% {
+                    margin: -17px 0 0 0; 
+					opacity: 0;
+                }
+            }
+			
+			.wearenot {
+				position: absolute;
+				left: 1px;
+				top: 1px;
+				animation-name: wearenot; 
+				animation-duration: 1.2s;
+				animation-delay: 5.5s;
+				animation-iteration-count: 1;
+				animation-direction: alternate;
+				animation-fill-mode: both;
+				animation-timing-function: ease-in;
+			}
+			
+			@keyframes wearenot {
+                0% {
+					opacity: 0;
+                }
+                100% {
+                    opacity: 1;
+                }
+            }
+			
+			.lve {
+				position: absolute;
+				left: 1px;
+				top: 1px;
+				animation-name: lve; 
+				animation-duration: 1.2s;
+				animation-delay: 6.7s;
+				animation-iteration-count: 1;
+				animation-direction: alternate;
+				animation-fill-mode: both;
+				animation-timing-function: ease-in;
+			}
+			
+			@keyframes lve {
+                0% {
+					opacity: 0;
+                }
+                100% {
+                  opacity: 1;
+                }
+            }
+			
+			.bigheart {
+				position: absolute;
+				left: 0px;
+				top: 0px;
+				z-index: 0;
+				animation-name: bigheartup; 
+				animation-duration: 8s;
+				animation-delay: 4.7s;
+				animation-iteration-count: 1;
+				animation-direction: alternate;
+				animation-fill-mode: both;
+				animation-timing-function: linear;
+			}
+			
+			@keyframes bigheartup {
+                0% {
+                    margin: 95px 0 0 -16px;
+					opacity: 0;
+					transform: scale(0.1);
+                }
+				20% {
+					opacity: 1;
+				}
+				30% {
+                    margin: 0 0 0 0;
+					opacity: 1;
+					transform: scale(1);
+                }
+            }
+			
+			.bigheart2 {
+				position: absolute;
+				left: 0px;
+				top: 0px;
+				z-index: 4;
+				animation-name: bigheart2; 
+				animation-duration: 4s;
+				animation-delay: 7.5s;
+				animation-iteration-count: 1;
+				animation-direction: alternate;
+				animation-fill-mode: both;
+				animation-timing-function: linear;
+			}
+			
+			@keyframes bigheart2 {
+                0% {
+					transform: scale(1);
+                    margin: 0 0 0 0;
+					opacity: 0;
+                }
+				15% {
+					opacity: 1;
+				}
+				30% {
+					transform: scale(1); 
+					margin: 0 0 0 0;
+				}
+				35% {
+					opacity: 1;
+				}
+                100% {
+					opacity: 0; 
+					transform: scale(15); 
+					margin: -70px 0 0 320px;
+				}
+            }
+			
+			.image1 {
+				position: absolute;
+				left: -40px;
+				top: 0px;
+				z-index: 3;
+			}
+			
+			.image2 {
+				position: absolute;
+				left: 0;
+				top: 0px;
+				z-index: 3;
+			}
+			
+			#image2 {
+				animation-name: image2; 
+				animation-duration: 11s;
+				animation-delay: 13s;
+				animation-iteration-count: 1;
+				animation-direction: alternate;
+				animation-fill-mode: both;
+				animation-timing-function: ease-out;
+			}
+			
+			@keyframes image2 {
+                0% { 
+					opacity: 0; 
+					margin: 0 0 0 0;
+                }
+				5% {
+					opacity: 1;
+				}
+				60% {
+					opacity: 1;
+				}
+				65% {
+					opacity: 0;
+				}
+				100% { 
+					opacity: 0; 
+					margin: 0 0 0 -70px;
+				}	
+			}
+			
+			.inits {
+				position: absolute;
+				left: 0px;
+				top: 0px;
+				z-index: 4;
+				animation-name: inits; 
+				animation-duration: 4s;
+				animation-delay: 9.3s;
+				animation-iteration-count: 1;
+				animation-direction: alternate;
+				animation-fill-mode: both;
+				animation-timing-function: linear;
+			}
+			
+			@keyframes inits {
+                0% {
+					opacity: 0;
+                }			
+				40% {
+					opacity: 1;
+				}
+				85% {
+					opacity: 1;
+				}
+                100% {
+					opacity: 0;
+				}
+            }
+			
+			#image1 {
+				animation-name: image1; 
+				animation-duration: 11s;
+				animation-delay: 9.2s;
+				animation-iteration-count: 1;
+				animation-direction: alternate;
+				animation-fill-mode: both;
+				animation-timing-function: ease-out;
+			}
+			
+			@keyframes image1 {
+                0% {
+                    margin: 0 0 0 0;
+					opacity: 0;
+                }
+				15% {
+					opacity: 1;
+				}
+                98% {
+					margin: 0 0 0 70px;
+				}
+			    99% {
+					opacity: 1;
+				}
+			    100% {
+					opacity: 0;
+				}
+            }
+			
+			.shadow {
+				position: absolute;
+				left: 0px;
+				top: 0px;
+				z-index: 3;
+				animation-name: shadow; 
+				animation-duration: 10s;
+				animation-delay: 12.3s;
+				animation-iteration-count: 1;
+				animation-direction: alternate;
+				animation-fill-mode: both;
+				animation-timing-function: linear;	
+			}
+			
+			@keyframes shadow {
+                0% {
+                    margin: 0 0 0 0;
+					opacity: 0;
+                }
+				15% {
+					opacity: 1;
+				}
+                100% {
+					margin: 0 0 0 0;
+				}
+            }
+			
+			.sowe {
+				position: absolute;
+				left: 0px;
+				top: 0px;
+				z-index: 4;
+				animation-name: sowe; 
+				animation-duration: 0.8s;
+				animation-delay: 13.5s;
+				animation-iteration-count: 1;
+				animation-direction: alternate;
+				animation-fill-mode: both;
+				animation-timing-function: linear;
+			}
+			
+			@keyframes sowe {
+                0% {
+                    margin: 0 0 0 -150px;
+					opacity: 0;
+                }
+				15% {
+					opacity: 1;
+				}
+                100% {
+					margin: 0 0 0 0;
+				}
+            }
+			
+			.cus {
+				position: absolute;
+				left: 0px;
+				top: 0px;
+				z-index: 4;
+				animation-name: cus; 
+				animation-duration: 5s;
+				animation-delay: 14.5s;
+				animation-iteration-count: 1;
+				animation-direction: alternate;
+				animation-fill-mode: both;
+				animation-timing-function: linear;
+			}
+			
+			@keyframes cus {
+                0% {
+                    margin: 0 0 0 0;
+					opacity: 0;
+                }
+				15% {
+					opacity: 1;
+				}
+                100% {
+					margin: 0 0 0 0;
+				}
+            }
+			
+			.serv {
+				position: absolute;
+				left: 0px;
+				top: 0px;
+				z-index: 4;
+				animation-name: serv; 
+				animation-duration: 5s;
+				animation-delay: 14.5s;
+				animation-iteration-count: 1;
+				animation-direction: alternate;
+				animation-fill-mode: both;
+				animation-timing-function: linear;	
+			}
+			
+			@keyframes serv {
+                0% {
+                    margin: 0 0 0 0;
+					opacity: 0;
+                }
+				15% {
+					opacity: 1;
+				}
+                100% {
+					margin: 0 0 0 0;
+				}
+            }
+			
+			.exc {
+				margin: 1px 0 0 0;
+				position: absolute;
+				left: 0px;
+				top: 0px;
+				z-index: 4;
+				animation-name: exc; 
+				animation-duration: 5s;
+				animation-delay: 15s;
+				animation-iteration-count: 1;
+				animation-direction: alternate;
+				animation-fill-mode: both;
+				animation-timing-function: linear;
+			}
+			
+			@keyframes exc {
+                0% {
+                    margin: 1px 0 0 0;
+					opacity: 0;
+                }
+				15% {
+					opacity: 1;
+				}
+                100% {
+					margin: 1px 0 0 0;
+				}
+            }
+			
+			.train {
+				position: absolute;
+				left: 0px;
+				top: 0px;
+				z-index: 4;
+				animation-name: train; 
+				animation-duration: 5s;
+				animation-delay: 15.5s;
+				animation-iteration-count: 1;
+				animation-direction: alternate;
+				animation-fill-mode: both;
+				animation-timing-function: linear;	
+			}
+			
+			@keyframes train {
+                0% {
+                    margin: 0 0 0 0;
+					opacity: 0;
+                }
+				15% {
+					opacity: 1;
+				}
+                100% {
+					margin: 0 0 0 0;
+				}
+            }
+			
+			.prog {
+				position: absolute;
+				left: 0px;
+				top: 0px;
+				z-index: 4;
+				animation-name: prog; 
+				animation-duration: 5s;
+				animation-delay: 16s;
+				animation-iteration-count: 1;
+				animation-direction: alternate;
+				animation-fill-mode: both;
+				animation-timing-function: linear;
+			}
+			
+			@keyframes prog {
+                0% {
+                    margin: 0 0 0 0;
+					opacity: 0;
+                }
+				15% {
+					opacity: 1;
+				}
+                40% {
+					margin: 0 0 0 0;
+				}
+            }
+			
+			.lastheart {
+				position: absolute;
+				left: 0px;
+				top: 0px;
+				z-index: 3;
+				animation-name: lastheart; 
+				animation-duration: 4.5s;
+				animation-delay: 17s;
+				animation-iteration-count: 1;
+				animation-direction: alternate;
+				animation-fill-mode: both;
+				animation-timing-function: ease-out;
+			}
+			
+			@keyframes lastheart {
+                0% {
+					opacity: 0; 
+					margin: 0 0 0 0;
+                }
+				10% {
+					opacity: 1;
+				}
+				55% {
+					margin: 0 0 0 0;
+				}
+				100% {
+					opacity: 1; 
+					margin: -90px 0 0 85px;
+				}
+            }
+			
+			.textandshadow {
+				position: absolute;
+				left: 0px;
+				top: 0px;
+				z-index: 5;
+				animation-name: textandshadow; 
+				animation-duration: 0.3s;
+				animation-delay: 18.3s;
+				animation-iteration-count: 1;
+				animation-direction: alternate;
+				animation-fill-mode: both;
+				animation-timing-function: linear;
+			}
+			
+			@keyframes textandshadow {
+                0% {
+					opacity: 1;
+                }
+				
+				100% {
+					opacity: 0;
+				}
+            }
+			
+			.heartcuplve {
+				position: absolute;
+				left: 0px;
+				top: 0px;
+				z-index: 5;
+				animation-name: heartcuplve; 
+				animation-duration: 1s;
+				animation-delay: 9s;
+				animation-iteration-count: 1;
+				animation-direction: alternate;
+				animation-fill-mode: both;
+				animation-timing-function: linear;
+			}
+			
+			@keyframes heartcuplve {
+                0% {
+					opacity: 1;
+                }
+				100% {
+					opacity: 0;
+				}
+            }
+			
+			.images {
+				position: absolute;
+				left: 0px;
+				top: 0px;
+				z-index: 5;
+				animation-name: images; 
+				animation-duration: 1s;
+				animation-delay: 18s;
+				animation-iteration-count: 1;
+				animation-direction: alternate;
+				animation-fill-mode: both;
+				animation-timing-function: linear;	
+			}
+			
+			@keyframes images {
+                0% {
+					opacity: 1;
+                }
+				100% {
+					opacity: 0;
+				}
+            }
+			
+			.becwe {
+				position: absolute;
+				left: 0px;
+				top: 0px;
+				z-index: 4;
+				animation-name: becwe; 
+				animation-duration: 10s;
+				animation-delay: 18s;
+				animation-iteration-count: 1;
+				animation-direction: alternate;
+				animation-fill-mode: both;
+				animation-timing-function: linear;
+			}
+			
+			@keyframes becwe {
+                0% {
+                    margin: 0 0 0 0;
+					opacity: 0;
+                }
+				15% {
+					opacity: 1;
+				}
+				20% {
+					opacity: 1;
+				}
+				25% {
+					opacity: 0;
+				}
+			    100% {
+					opacity: 0; 
+					margin: 0 0 0 0;
+				}	
+            }
+			
+			.inorder {
+				position: absolute;
+				left: 0px;
+				top: 0px;
+				z-index: 4;
+				animation-name: inorder; 
+				animation-duration: 10s;
+				animation-delay: 20.5s;
+				animation-iteration-count: 1;
+				animation-direction: alternate;
+				animation-fill-mode: both;
+				animation-timing-function: linear;
+				
+			}
+			
+			@keyframes inorder {
+                0% {
+                    margin: 0 0 0 0;
+					opacity: 0;
+                }
+				15% {
+					opacity: 1;
+				}
+				20% {
+					opacity: 1;
+				}
+				25% {
+					opacity: 0;
+				}
+			    100% {
+					opacity: 0; 
+					margin: 0 0 0 0;
+				}
+				
+            }
+			
+			.coffeecup2 {
+				position: absolute;
+				z-index: 4;
+				animation-name: coffeecupup2; 
+				animation-duration: 2s;
+				animation-delay: 21s;
+				animation-iteration-count: 1;
+				animation-direction: alternate;
+				animation-fill-mode: both;
+				animation-timing-function: ease-out;	
+			}
+			
+			@keyframes coffeecupup2 {
+                0% {
+                    margin: 75px 0 0 0;
+                }
+                100% {
+                    margin: 0 0 0 0;
+                }
+            }
+			
+			.youneed {
+				position: absolute;
+				left: 0px;
+				top: 0px;
+				z-index: 4;
+				animation-name: youneed; 
+				animation-duration: 15s;
+				animation-delay: 23s;
+				animation-iteration-count: 1;
+				animation-direction: alternate;
+				animation-fill-mode: both;
+				animation-timing-function: linear;
+			}
+			
+			@keyframes youneed {
+                0% {
+                    margin: 0 0 0 0;
+					opacity: 0;
+                }
+				15% {
+					opacity: 1;
+				}
+				100% {
+					opacity: 1;
+				}
+            }
+			
+			.lastheartdown {
+				margin: 0 0 0 15px;
+				position: absolute;
+				left: 0px;
+				top: 0px;
+				z-index: 3;
+				animation-name: lastheartdown; 
+				animation-duration: 4s;
+				animation-delay: 21.7s;
+				animation-iteration-count: 1;
+				animation-direction: normal;
+				animation-fill-mode: both;
+				animation-timing-function: linear;	
+			}
+			
+			@keyframes lastheartdown {
+                0% {opacity: 0; 
+                }
+				0.1% {opacity: 1;}
+				
+				37% {margin: 0 0 0 15px;}
+				
+				100% {opacity: 1; margin: 60px 0 0 15px;}
+				
+            }
+			
+			.lastheartfade {
+				position: absolute;
+				left: 0px;
+				top: 0px;
+				z-index: 5;
+				animation-name: lastheartfade; 
+				animation-duration: 0.1s;
+				animation-delay: 21.9s;
+				animation-iteration-count: 1;
+				animation-direction: alternate;
+				animation-fill-mode: both;
+				animation-timing-function: linear;
+				
+			}
+			
+			@keyframes lastheartfade {
+                0% {opacity: 1;
+                }
+				
+				100% {opacity: 0;}
+			
+            }
+			
+			.lastheartdownfade {
+				position: absolute;
+				left: 0px;
+				top: 0px;
+				z-index: 3;
+				animation-name: lastheartdownfade; 
+				animation-duration: 0.5s;
+				animation-delay: 24.5s;
+				animation-iteration-count: 1;
+				animation-direction: alternate;
+				animation-fill-mode: both;
+				animation-timing-function: linear;
+				
+			}
+			
+			@keyframes lastheartdownfade {
+                0% {
+					opacity: 1;
+                }
+				100% {
+					opacity: 0;}
+            }
+			
+			.lastheartincup {
+				margin: -1px 0 0 15px;
+				position: absolute;
+				left: 0px;
+				top: 0px;
+				z-index: 4;
+				animation-name: lastheartincup; 
+				animation-duration: 1s;
+				animation-delay: 25.1s;
+				animation-iteration-count: 1;
+				animation-direction: alternate;
+				animation-fill-mode: both;
+				animation-timing-function: linear;	
+			}
+			
+			@keyframes lastheartincup {
+                 0% {
+					 opacity: 0;
+                 }
+				100% {
+					  opacity: 1;
+				}
+            }
+			
+			.button {
+				position: absolute;
+				left: 0px;
+				top: 0px;
+				z-index: 4;
+				animation-name: button; 
+				animation-duration: 1s;
+				animation-delay: 25.1s;
+				animation-iteration-count: 1;
+				animation-direction: alternate;
+				animation-fill-mode: both;
+				animation-timing-function: linear;
+				
+			}
+			
+			@keyframes button {
+                 0% {
+					 opacity: 0;
+                 }
+				100% {
+					  opacity: 1;
+				}
+			}
+			
             /*
              * Ryan's sample banner ad styles
              */
+			 
             .ball {
                 background: #0CF;
                 border-radius: 50%;
@@ -68,11 +905,139 @@
             }
         </style>
     </head>
+    
     <body>
-        <a href="#" id="medium-rectangle">
-            <!--markup for banner goes below-->
-            <div class="ball"></div>
-            <!--markup for banner goes above-->
-        </div>
-    </body>
+    
+        <a href="#" id="medium-rectangle"> 
+        
+			<div class="starbuckspatternbackground"> 
+				<img src="assets/backgroundpattern.png" alt="backgroundpattern">
+			</div>
+         
+            <div class="beigebackground"> 
+          		<img src="assets/beigebackground.png" width="310" height="250" alt="beigebackground">
+       		</div>
+         
+          <div class="frame">
+				<div class="heartcuplve">
+                
+					<div class="wearenot">
+                        <img src="assets/wearenot.png" width="300" height="250" alt="wearenot">
+                    </div>
+                    
+					<div class="bigheart"> 
+                    	<img src="assets/bigheart2.png" width="300" height="250" alt="bigheart"> 
+                    </div>   
+                
+                	<div class="coffeecup">
+                        <img src="assets/coffeecup2.png" width="300" height="250" alt="coffeecup">
+                	</div>
+                   
+                	<div class="smallheart">
+                        <img src="assets/smallheart.png" width="300" height="250" alt="smallheart">
+               		</div>
+                  
+                	<div class="lve">
+                        <img src="assets/lve.png" width="300" height="250" alt="lve">
+					</div>
+                
+                <div class="bigheart2"> 
+                		<img src="assets/bigheart2.png" alt="bigheart2" width="300" height="250"> 
+                </div> 
+                
+        	</div>
+			
+            <div class="images">
+        
+				<div class="inits"> 
+                	<img src="assets/inits.png" width="300" height="250" alt="inits" id="inits"> 
+                </div> 
+        
+        		<div class="image1"> 
+                	<img src="assets/image.png" alt="image1" id="image1"> 
+                </div> 
+                
+ 				<div class="image2"> 
+                	<img src="assets/image1.png" alt="image2" id="image2"> 
+                </div> 
+                
+			</div>
+         
+         	<div class="textandshadow">
+         
+         		<div class="shadow"> 
+                	<img src="assets/shadow.png" alt="shadow" id="shadow"> 
+                </div> 
+        
+          		<div class="sowe"> 
+                	<img src="assets/sowe.png" width="300" height="250" alt="sowe" id="sowe"> 
+                </div> 
+        
+           		<div class="cus"> 
+                	<img src="assets/cus.png" width="300" height="250" alt="cus" id="cus"> 
+                </div> 
+           
+           		<div class="serv"> 
+                	<img src="assets/serv.png" width="300" height="250" alt="serv" id="serv"> 
+                </div> 
+           
+           		<div class="exc"> 
+                	<img src="assets/exc.png" width="300" height="250" alt="exc" id="exc"> 
+                </div> 
+           
+           		<div class="train"> 
+                	<img src="assets/train.png" width="300" height="250" alt="train" id="train"> 
+                </div> 
+               
+           		<div class="prog"> 
+                	<img src="assets/prog2.png" width="300" height="250" alt="prog" id="prog"> 
+                </div> 
+                
+			</div>
+       
+      		<div class="lastheartfade">
+            
+           		<div class="lastheart">
+          			<img src="assets/lastheart.png" width="300" height="250" alt="lastheart">
+       			</div>
+        
+       		</div>
+        
+      	 	<div class="becwe"> 
+            	<img src="assets/becwe.png" width="300" height="250" alt="becwe" id="becwe"> 
+            </div>
+       
+       		<div class="inorder"> 
+            	<img src="assets/inorder.png" width="300" height="250" alt="inorder" id="inorder"> 
+            </div>
+       
+       		<div class="lastheartdownfade">
+            
+        		<div class="lastheartdown">
+          			<img src="assets/lastheartdown.png" width="300" height="250" alt="lastheartdown">
+        		</div>
+                
+        	</div>
+      
+      		<div class="coffeecup2">
+            	<img src="assets/coffeecup3.png" width="300" height="250" alt="coffeecup">
+            </div>
+                
+            <div class="button"> 
+            	<img src="assets/button2.png" width="300" height="250" alt="button" id="button"> 
+            </div>
+                  
+            <div class="youneed"> 
+            	<img src="assets/youneed.png" width="300" height="250" alt="youneed" id="youneed"> 
+            </div>
+                
+            <div class="lastheartincup"> 
+            	<img src="assets/lastheartincup.png" width="300" height="250" alt="lastheartincup" id="lastheartincup"> 
+            </div>
+            
+		</div>   
+    </a>
+       
+</body>
+
 </html>
