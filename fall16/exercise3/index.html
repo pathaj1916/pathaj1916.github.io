@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <!--meta name="viewport" content="width=device-width, initial-scale=1"-->
+
+        <link rel="stylesheet" href="css/normalize.min.css">
+        <link rel="stylesheet" href="css/main.css">
+
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    </head>
+    <body>
+
+      <h2>10 Fluid Grid Structures</h2>
+<div class="description">
+    <ul>
+        <li>Grid 1 (2 column grid, 6 units wide each) <br /> <strong>Mobile and Tablet:</strong> 1 column grid <br /> <strong>Desktop:</strong> 2 column grid </li>
+    </ul>
+</div>
+<div class="row">
+    <div class="col-xs-12 col-md-12 col-lg-6">
+        column 1
+    </div>
+    <div class="col-xs-12 col-md-12 col-lg-6">
+        column 2
+    </div>
+</div>
+
+<div class="description">
+    <ul>
+        <li>Grid 2 (3 column grid, 4 units wide each) <br /> <strong>Mobile and Tablet:</strong> 2 column grid <br /> <strong>Desktop:</strong> 3 column grid</li>
+    </ul>
+</div>
+<div class="row">
+    <div class="col-xs-12 col-md-6 col-lg-4">
+        column 1
+    </div>
+    <div class="col-xs-6 col-md-6 col-lg-4">
+        column 2
+    </div>
+     <div class="col-xs-6 col-md-12 col-lg-4">
+        column 3
+    </div>
+</div>
+
+<div class="description">
+    <ul>
+        <li>Grid 3 (4 column grid, 3 units wide each) <br /> <strong>Mobile:</strong> 1 column grid <br /> <strong>Tablet:</strong> 2 column grid<strong><br />Desktop:</strong> 4 column grid</li>
+    </ul>
+</div>
+<div class="row">
+    <div class="col-xs-12 col-md-6 col-lg-3">
+        column 1
+    </div>
+    <div class="col-xs-12 col-md-6 col-lg-3">
+        column 2
+    </div>
+     <div class="col-xs-12 col-md-9 col-lg-3">
+        column 3
+    </div>
+     <div class="col-xs-12 col-md-3 col-lg-3">
+        column 4
+    </div>
+</div>
+
+<div class="description">
+    <ul>
+        <li>Grid 4 (3 column grid, 1 nested column, 3 units wide each) 
+        <br /> <strong>Mobile:</strong> 1 column grid <br /> <strong>Tablet:</strong> 2 column grid<strong><br />Desktop:</strong> 3 column grid with nested column in column 1</li>
+    </ul>
+</div>
+<div class="row">
+    <div class="col-md-4 col-lg-4">
+        column 1
+        <div class="col-lg-6">
+        nested column 1
+        </div>
+    </div>
+    <div class="col-md-8 col-lg-4">
+        column 2
+    </div>
+    <div class="col-md-8 col-lg-4">
+        column 3
+    </div>
+</div>
+
+
+<div class="description">
+    <ul>
+        <li>Grid 5 (2 column grid of 3 columns, 3 nested columns, 2 rows)
+        <br /> <strong>Mobile:</strong> 1 column grid <br /> <strong>Tablet:</strong> 2 column grid<strong><br />Desktop:</strong> 2 column grid with nested columns in columns 2 and 3</li>
+    </ul>
+</div>
+<div class="row">
+    <div class="col-xs-12 col-md-12 col-lg-12">
+        column 1
+        <div class="col-xs-12 col-md-12 col-lg-6">
+        	nested column 1
+        </div>
+    </div>
+    <div class="col-xs-12 col-md-6 col-lg-6">
+        column 2
+        <div class="col-xs-12 col-md-6 col-lg-6">
+        	nested column 2
+        </div>
+    </div>
+    <div class="col-xs-12 col-md-6 col-lg-6">
+        column 3
+        <div class="col-xs-12 col-md-6 col-lg-6">
+        	nested column 3
+        </div>
+    </div>
+</div>
+
+
+
+
+<div class="description">
+    <ul>
+        <li>Grid 6 (3 column grid, 2 nested columns, 3 images) 
+        <br /> <strong>Mobile:</strong> 1 column grid <br /> <strong>Tablet:</strong> 3 column grid<strong><br />Desktop:</strong> 3 column grid with 2 nested columns in column 3 </li>
+    </ul>
+</div>
+<div class="row">
+   <div class="col-xs-12 col-md-4 col-lg-2">
+        <img src="http://placehold.it/640x480/" alt="sample image" class="img-responsive" />
+        column 1 with image
+    </div>
+    <div class="col-xs-12 col-md-4 col-lg-2">
+       <img src="http://placehold.it/640x480/" alt="sample image" class="img-responsive" />
+        column 2 with image
+    </div>
+    <div class="col-xs-12 col-md-4 col-lg-8">
+        column 3
+        <div class="row">
+            <div class="col-xs-12 col-md-12 col-lg-6">
+                <img src="http://placehold.it/640x480/" alt="sample image" class="img-responsive" />
+                nested column 1 with image
+            </div>
+            <div class="col-xs-12 col-md-12 col-lg-6">
+                nested column 2
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<div class="description">
+    <ul>
+        <li>Grid 7 (3 column grid, 2 nested columns, 1 image) 
+        <br /> <strong>Mobile:</strong> 1 column grid <br /> <strong>Tablet:</strong> 2 column grid<strong><br />Desktop:</strong> 3 column grid with 2 nested columns in column 3</li>
+    </ul>
+</div>
+<div class="row">
+   <div class="col-xs-12 col-md-6 col-lg-2">
+   column 1
+    </div>
+    <div class="col-xs-12 col-md-6 col-lg-2">
+       <img src="http://placehold.it/640x480/" alt="sample image" class="img-responsive" />
+        column 2 with image
+    </div>
+    <div class="col-xs-12 col-md-12 col-lg-8">
+        column 3
+        <div class="row">
+            <div class="col-xs-12 col-md-6 col-lg-6">
+                nested column 1 
+            </div>
+            <div class="col-xs-12 col-md-6 col-lg-6">
+                nested column 2
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="description">
+    <ul>
+        <li>Grid 8 (2 column grid, 3 nested columns, 4 images) 
+        <br /> <strong>Mobile:</strong> 1 column grid <br /> <strong>Tablet:</strong> 2 column grid<strong><br />Desktop:</strong> 2 column grid with nested columns in columns 1 and 2 </li>
+    </ul>
+</div>
+<div class="row">
+   <div class="col-xs-12 col-md-12 col-lg-6">
+   <img src="http://placehold.it/640x480/" alt="sample image" class="img-responsive" />
+   column 1 with image
+   		<div class="col-xs-12 col-md-6 col-lg-6">
+       <img src="http://placehold.it/640x480/" alt="sample image" class="img-responsive" />
+       nested column 1 with image
+        </div>
+        <div class="col-xs-12 col-md-6 col-lg-6">
+       <img src="http://placehold.it/640x480/" alt="sample image" class="img-responsive" />
+       nested column 2 with image
+        </div>
+    </div>
+    <div class="col-xs-12 col-md-12 col-lg-6">
+       <img src="http://placehold.it/640x480/" alt="sample image" class="img-responsive" />
+        column 2 with image
+            <div class="col-xs-12 col-md-6 col-lg-12">
+           nested column 2
+            </div>
+    </div>
+</div>
+
+
+<div class="description">
+    <ul>
+        <li>Grid 9 (3 column grid, 1 image) 
+        <br /> <strong>Mobile:</strong> 2 column grid <br /> <strong>Tablet:</strong> 2 column grid<strong><br />Desktop:</strong> 3 column grid </li>
+    </ul>
+</div>
+<div class="row">
+    <div class="col-xs-12 col-md-9 col-lg-6">
+        <img src="http://placehold.it/640x480/" alt="sample image" class="img-responsive" />
+       column 1 with image
+        </div>
+    <div class="col-xs-6 col-md-3 col-lg-3">
+        column 2
+    </div>
+    <div class="col-xs-6 col-md-3 col-lg-3">
+        column 3
+    </div>
+</div>
+
+
+<div class="description">
+    <ul>
+        <li>Grid 10 (4 column grid, 2 nested columns, 1 image) 
+        <br /> <strong>Mobile:</strong> 2 column grid <br /> <strong>Tablet:</strong> 3 column grid<strong><br />Desktop:</strong> 4 column grid with 2 nested columns in column 4</li>
+    </ul>
+</div>
+<div class="row">
+    <div class="col-xs-12 col-md-4 col-lg-3">
+        <img src="http://placehold.it/640x480/" alt="sample image" class="img-responsive" />
+       column 1 with image
+        </div>
+    <div class="col-xs-6 col-md-4 col-lg-3">
+        column 2
+    </div>
+    <div class="col-xs-6 col-md-4 col-lg-3">
+        column 3
+    </div>
+    <div class="col-xs-12 col-md-8 col-lg-3">
+        column 4
+        <div class="col-xs-6 col-md-3 col-lg-6">
+        nested column 4 (1)
+    </div>
+    <div class="col-xs-6 col-md-3 col-lg-6">
+        nested column 4 (2)
+    </div>
+    </div>
+</div>
+
+
+
+
+
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+
+        <script src="js/main.js"></script>
+    </body>
+</html>
