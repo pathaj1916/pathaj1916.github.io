@@ -13,8 +13,10 @@ $(document).ready(function () {
 			}
 	}); 
 
+	if ( $(window).width() < 380) {
 	$('.squarecircle-btn').on('click', function (e) {
 		e.preventDefault();
 		$(this).parent().siblings('.copyblock').toggleClass('hidden');
-	});
+	}); }
 });
+

@@ -133,33 +133,33 @@
 
 					<h4 class="lhyb"> Let’s help you begin today. </h4>
 
-        				<form action="">
+        				<form action="#" id="sign-up-form">
 
     					<label for="first-name"></label>
-    					<input type="text" name="first" id="firstname" placeholder="First Name" value="" required="required"/> 
+    					<input type="text" name="first" id="firstname" placeholder="First Name" value="" /> 
 
  
     					<label for="lastname"></label>
-    					<input type="text" name="lastname" id="lastname" placeholder="Last Name" value="" required="required" /> 
+    					<input type="text" name="lastname" id="lastname" placeholder="Last Name" value=""  /> 
 
     					<label for="email"></label>
-    					<input type="text" name="email" id="email" placeholder="Email" value="" required="required" /> 
+    					<input type="text" name="email" id="email" placeholder="Email" value=""  /> 
 
                         
     					<label for="phone"></label>
-    					<input type="text" name="phone" id="phone" placeholder="Phone" value="" required="required" /> 
+    					<input type="text" name="phone" id="phone" placeholder="Phone" value=""  /> 
                         
-                        <hr class="one"> 
+                        <hr class="formone"> 
                         
                         <label for="address"></label>
-    					<input type="text" name="address" id="address" placeholder="Address" value="" required="required" /> 
+    					<input type="text" name="address" id="address" placeholder="Address" value="" /> 
                         
                          <label for="city"></label>
-    					<input type="text" name="city" id="city" placeholder="City" value="" required="required" />
+    					<input type="text" name="city" id="city" placeholder="City" value="" />
         
         				
         					<label for="state"></label> 
-            				<select name="state" id="state"> <option value="" required="required">State</option>
+            				<select name="state" id="state"> <option value="" >State</option>
             				<option value="AL">Alabama</option>
                             <option value="AK">Alaska</option>
                             <option value="AZ">Arizona</option>
@@ -214,9 +214,9 @@
       						</select>
       
       					<label for="zip"></label>
-    					<input type="text" name="zip" id="zip" placeholder="Zip" value="" required="required" />
+    					<input type="text" name="zip" id="zip" placeholder="Zip" value="" />
                         
-                         <hr class="one">
+                         <hr class="formone">
       
  						<fieldset>
                         <span class="question">How would you like to recieve your starter information packet?</span>
@@ -225,7 +225,7 @@
                             <input type="radio" name="user_mail" value="female" class="email" /> Mail
                         </label>
                         <label class="mailemail">
-                            <input type="radio" name="user_mail" value="male" required="required" class="email" /> Email
+                            <input type="radio" name="user_mail" value="male" class="email" /> Email
                         </label> 
                     	</fieldset>
             			
@@ -236,6 +236,17 @@
 	</div>
     
     <!-- end form -->
+    
+     <div class="form1 hidden" id="sign-up-confirmation"> 
+
+					<h4 class="lhyb"> You're on the right path! </h4>
+                    
+                    <p class="confirmation"> Once you recieve your starter packet, you will learn more about the next steps to join the Starbucks Customer Service Excellence Training Program. We're thrilled you're interested in our training program, and can't wait to guide you through this journey. </p>
+    
+           
+			
+	</div>    
+    
                             
                         </div>
 
@@ -279,6 +290,17 @@
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 
         <script src="js/main.js"></script>
+        
+        <script>
+		$(document).ready(function () {
+			$('#sign-up-form').on('submit', function (e) {
+				e.preventDefault();
+				
+				$(this).closest('.form1').addClass('hidden');
+				$('#sign-up-confirmation').removeClass('hidden');
+			});	
+		});
+		</script>
 
     </body>
 </html>
